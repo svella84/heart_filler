@@ -1,5 +1,11 @@
 HeartFiller::Application.routes.draw do
+  get "heart/index"
   devise_for :users
+
+  resources :users do
+  	resources :information
+  end
+
   resources :campaigns
 
   # The priority is based upon order of creation: first created -> highest priority.
