@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  campaign_id: 1
+  user_id: 1
+  good_id: 1
+  donation: 9.99
+  comment: MyText
+
+two:
+  campaign_id: 1
+  user_id: 1
+  good_id: 1
+  donation: 9.99
+  comment: MyText

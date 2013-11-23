@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @campaign.user_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @campaign.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @campaign.description %>
+</p>
+
+<p>
+  <strong>Target:</strong>
+  <%= @campaign.target %>
+</p>
+
+<p>
+  <strong>Budget:</strong>
+  <%= @campaign.budget %>
+</p>
+
+<p>
+  <strong>Expiration:</strong>
+  <%= @campaign.expiration %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @campaign.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_campaign_path(@campaign) %> |
+<%= link_to 'Back', campaigns_path %>
