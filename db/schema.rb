@@ -45,10 +45,10 @@ ActiveRecord::Schema.define(version: 20131126091740) do
     t.integer  "user_id"
     t.string   "name"
     t.string   "surname"
-    t.date     "date_to_birth"
-    t.string   "province"
+    t.date     "date_of_birth"
+    t.string   "address"
     t.string   "city"
-    t.string   "street"
+    t.string   "country"
     t.string   "poste_code"
     t.string   "phone"
     t.decimal  "credit",        precision: 10, scale: 2, default: 0.0, null: false
@@ -71,6 +71,7 @@ ActiveRecord::Schema.define(version: 20131126091740) do
     t.string   "email",                  default: "",    null: false
     t.string   "encrypted_password",     default: "",    null: false
     t.boolean  "admin",                  default: false, null: false
+    t.boolean  "active",                 default: true,  null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -81,7 +82,6 @@ ActiveRecord::Schema.define(version: 20131126091740) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "active",                 default: true,  null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
