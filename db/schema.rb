@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131126091740) do
+ActiveRecord::Schema.define(version: 20131126091638) do
 
   create_table "campaigns", force: true do |t|
+    t.integer  "category_id"
     t.integer  "user_id"
     t.string   "title"
     t.text     "description"
     t.decimal  "target",      precision: 10, scale: 2
-    t.decimal  "budget",      precision: 10, scale: 2
+    t.decimal  "budget",      precision: 10, scale: 2, default: 0.0, null: false
     t.datetime "expiration"
     t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "category_id"
   end
 
   create_table "categories", force: true do |t|

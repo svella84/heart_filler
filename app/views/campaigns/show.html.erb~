@@ -6,11 +6,6 @@
 </p>
 
 <p>
-  <strong>Category:</strong>
-  <%= @campaign.category_id %>
-</p>
-
-<p>
   <strong>Title:</strong>
   <%= @campaign.title %>
 </p>

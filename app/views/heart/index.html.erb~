@@ -3,17 +3,18 @@
 <% end %>
 
 <h1>Campaign Active</h1>
-<% @products.each do |product| %>
+<% @campaigns.each do |campaign| %>
 	<div class="entry" >
-		<%= image_tag(product.image_url) %>
+		<%= image_tag(campaign.image_url, :class => 'list_image') %>
 
 		<h3><%= campaign.title %></h3>
+		<h4><%= campaign.category_id %></h4>
 		<%=sanitize campaign.description %>
 		<div class="target_line" >
-			<span class="target" ><%= campaign.target %></span>
+			<span class="target" ><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
 		</div>
 		<div class="budget_line" >
-			<span class="budget" ><%= campaign.budget %></span>
+			<span class="budget" ><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
 		</div>
 	</div>
 <% end %>

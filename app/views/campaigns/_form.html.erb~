@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :category_id %><br>
-    <%= f.select(:category_id, Category.all.map {|c| [c.name, c.id]}, :prompt => "Select Category") %>
+    <%= f.select(:category_id, Category.all.map {|c| [c.name]}, :prompt => "Select Category") %>
   </div>
   <div class="field">
     <%= f.label :title %><br>

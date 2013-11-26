@@ -725,3 +725,2585 @@ Migrating to AddCategoryIdToCampaign (20131126091740)
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091740"]]
   [1m[36m (128.2ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 12:10:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 128ms (Views: 92.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 12:10:56 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:03 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 12:11:06 +0100
+Processing by CampaignsController#new as HTML
+  Rendered campaigns/_form.html.erb (115.7ms)
+  Rendered campaigns/new.html.erb within layouts/application (119.8ms)
+Completed 200 OK in 129ms (Views: 126.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 12:11:35 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 120ms (Views: 90.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:36 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 12:11:42 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 12:11:44 +0100
+Processing by CampaignsController#new as HTML
+  Rendered campaigns/_form.html.erb (77.2ms)
+  Rendered campaigns/new.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+Processing by CampaignsController#new as HTML
+  Rendered campaigns/_form.html.erb (26.7ms)
+  Rendered campaigns/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 41ms (Views: 35.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 12:20:37 +0100
+  [1m[36mCategory Load (1.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mCampaign Load (0.5ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 15:35:43 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 325ms (Views: 272.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:44 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:35:54 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 15:35:56 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (245.1ms)
+  Rendered campaigns/new.html.erb within layouts/application (258.9ms)
+Completed 200 OK in 280ms (Views: 276.8ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (25.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:37:49 UTC +00:00], ["name", "Animals & Wildlife"], ["updated_at", Tue, 26 Nov 2013 14:37:49 UTC +00:00]]
+  [1m[36m (124.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:38:17 UTC +00:00], ["name", "Art & Culture"], ["updated_at", Tue, 26 Nov 2013 14:38:17 UTC +00:00]]
+  [1m[35m (117.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:38:30 UTC +00:00], ["name", "Children & Young People"], ["updated_at", Tue, 26 Nov 2013 14:38:30 UTC +00:00]]
+  [1m[36m (127.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:38:46 UTC +00:00], ["name", "Education"], ["updated_at", Tue, 26 Nov 2013 14:38:46 UTC +00:00]]
+  [1m[35m (132.9ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:39:02 UTC +00:00], ["name", "Medical & Health"], ["updated_at", Tue, 26 Nov 2013 14:39:02 UTC +00:00]]
+  [1m[36m (109.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:39:08 UTC +00:00], ["name", "Other"], ["updated_at", Tue, 26 Nov 2013 14:39:08 UTC +00:00]]
+  [1m[35m (134.9ms)[0m  commit transaction
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+  [1m[36mCategory Load (1.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 15:40:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (91.1ms)
+  Rendered campaigns/new.html.erb within layouts/application (95.7ms)
+Completed 200 OK in 208ms (Views: 178.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:40:24 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:40:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddCategoryIdToCampaign (20131126091740)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TEMPORARY TABLE "acampaigns" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "title" varchar(255), "description" text, "target" decimal(10,2), "budget" decimal(10,2), "expiration" datetime, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime, "category_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "campaigns"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "campaigns"
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "campaigns" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "title" varchar(255), "description" text, "target" decimal(10,2), "budget" decimal(10,2), "expiration" datetime, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "acampaigns"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "acampaigns"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131126091740'
+  [1m[36m (138.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCategories (20131126091638)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "categories"
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131126091638'[0m
+  [1m[35m (129.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateInformation (20131123000001)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "information"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131123000001'[0m
+  [1m[35m (129.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateUsers (20131122235008)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  DROP INDEX "index_users_on_reset_password_token"
+  [1m[36m (0.3ms)[0m  [1mDROP INDEX "index_users_on_email"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131122235008'[0m
+  [1m[35m (134.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateOffers (20131122234908)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "offers"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131122234908'[0m
+  [1m[35m (127.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateGoods (20131122234710)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "goods"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131122234710'[0m
+  [1m[35m (141.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCampaigns (20131122234413)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "campaigns"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131122234413'[0m
+  [1m[35m (137.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCampaigns (20131122234413)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "campaigns" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category_id" integer, "user_id" integer, "title" varchar(255), "description" text, "target" decimal(10,2), "budget" decimal(10,2) DEFAULT 0 NOT NULL, "expiration" datetime, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122234413"]]
+  [1m[36m (93.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateGoods (20131122234710)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "goods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "campaign_id" integer, "name" varchar(255), "description" varchar(255), "cost" decimal(10,2), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122234710"]]
+  [1m[36m (119.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateOffers (20131122234908)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "offers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "campaign_id" integer, "user_id" integer, "good_id" integer, "donation" decimal(10,2), "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122234908"]]
+  [1m[36m (131.6ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateUsers (20131122235008)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "admin" boolean DEFAULT 'false' NOT NULL, "active" boolean DEFAULT 'true' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122235008"]]
+  [1m[36m (126.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateInformation (20131123000001)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "information" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar(255), "surname" varchar(255), "date_of_birth" date, "address" varchar(255), "city" varchar(255), "country" varchar(255), "poste_code" varchar(255), "phone" varchar(255), "credit" decimal(10,2) DEFAULT 0 NOT NULL, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131123000001"]]
+  [1m[36m (132.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCategories (20131126091638)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091638"]]
+  [1m[36m (120.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 121ms (Views: 91.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:03 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:51:10 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 15:51:24 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (88.2ms)
+  Rendered campaigns/new.html.erb within layouts/application (93.1ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:53:43 UTC +00:00], ["name", "Animals & Wildlife"], ["updated_at", Tue, 26 Nov 2013 14:53:43 UTC +00:00]]
+  [1m[36m (127.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:53:50 UTC +00:00], ["name", "Art & Culture"], ["updated_at", Tue, 26 Nov 2013 14:53:50 UTC +00:00]]
+  [1m[35m (130.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:53:56 UTC +00:00], ["name", "Children & Young People"], ["updated_at", Tue, 26 Nov 2013 14:53:56 UTC +00:00]]
+  [1m[36m (147.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:54:02 UTC +00:00], ["name", "Education"], ["updated_at", Tue, 26 Nov 2013 14:54:02 UTC +00:00]]
+  [1m[35m (126.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 14:54:08 UTC +00:00], ["name", "Medical & Health"], ["updated_at", Tue, 26 Nov 2013 14:54:08 UTC +00:00]]
+  [1m[36m (118.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 14:54:13 UTC +00:00], ["name", "Other"], ["updated_at", Tue, 26 Nov 2013 14:54:13 UTC +00:00]]
+  [1m[35m (121.6ms)[0m  commit transaction
+  [1m[36mCategory Load (3.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.6ms)[0m  SELECT "categories".* FROM "categories"
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 136ms (Views: 95.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:03 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 15:58:08 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 15:58:11 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (93.4ms)
+  Rendered campaigns/new.html.erb within layouts/application (97.4ms)
+Completed 200 OK in 107ms (Views: 103.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/campaigns" for 127.0.0.1 at 2013-11-26 16:00:00 +0100
+Processing by CampaignsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category"=>"Animals & Wildlife", "title"=>"Focalcool", "description"=>"Alcool per le foche.", "target"=>"200000", "expiration(1i)"=>"2013", "expiration(2i)"=>"2", "expiration(3i)"=>"26", "expiration(4i)"=>"14", "expiration(5i)"=>"58", "image_url"=>"/images/seal.jpg"}, "commit"=>"Create Campaign"}
+Unpermitted parameters: category
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "campaigns" ("created_at", "description", "expiration", "image_url", "target", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 26 Nov 2013 15:00:00 UTC +00:00], ["description", "Alcool per le foche."], ["expiration", Tue, 26 Feb 2013 14:58:00 UTC +00:00], ["image_url", "/images/seal.jpg"], ["target", #<BigDecimal:498a400,'0.2E6',9(18)>], ["title", "Focalcool"], ["updated_at", Tue, 26 Nov 2013 15:00:00 UTC +00:00], ["user_id", 1]]
+  [1m[36m (125.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/campaigns/1
+Completed 302 Found in 137ms (ActiveRecord: 128.7ms)
+
+
+Started GET "/campaigns/1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered campaigns/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:00:01 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:00:04 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:03:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (73.5ms)
+Completed 500 Internal Server Error in 115ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     8: 		<%= image_tag(campaign.image_url, :class => 'list_image') %>
+     9: 
+    10: 		<h3><%= campaign.title %></h3>
+    11: 		<h4><%= campaign.category.name %></h4>
+    12: 		<%=sanitize campaign.description %>
+    13: 		<div class="target_line" >
+    14: 			<span class="target" ><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
+  app/views/heart/index.html.erb:11:in `block in _app_views_heart_index_html_erb__809111264708327342_40947760'
+  app/views/heart/index.html.erb:6:in `_app_views_heart_index_html_erb__809111264708327342_40947760'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.9ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.1ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (85.7ms)
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:04:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.5ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:04:27 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (51.3ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:28 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:04:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.3ms)
+
+
+Started GET "/campaigns/1" for 127.0.0.1 at 2013-11-26 16:04:35 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered campaigns/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (85.5ms)
+Completed 200 OK in 214ms (Views: 171.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (80.6ms)
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:08:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (71.8ms)
+
+
+Started GET "/campaigns/1/edit" for 127.0.0.1 at 2013-11-26 16:08:41 +0100
+Processing by CampaignsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCampaign Load (0.4ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (34.5ms)
+  Rendered campaigns/edit.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 60ms (Views: 55.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (65.3ms)
+Completed 200 OK in 178ms (Views: 149.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:10:20 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.2ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.1ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started GET "/images/seal.jpg" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/seal.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:25 +0100
+
+
+Started DELETE "/campaigns/1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+Processing by CampaignsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "id"=>"1"}
+  [1m[35mCampaign Load (0.4ms)[0m  SELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  DELETE FROM "campaigns" WHERE "campaigns"."id" = ?  [["id", 1]]
+  [1m[36m (130.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/campaigns
+Completed 302 Found in 141ms (ActiveRecord: 133.9ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:10:31 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:10:33 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (29.6ms)
+  Rendered campaigns/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/campaigns" for 127.0.0.1 at 2013-11-26 16:12:26 +0100
+Processing by CampaignsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category_id"=>"Animals & Wildlife", "title"=>"Focalcool", "description"=>"asd", "target"=>"200000", "expiration(1i)"=>"2013", "expiration(2i)"=>"4", "expiration(3i)"=>"26", "expiration(4i)"=>"15", "expiration(5i)"=>"10", "image_url"=>"/images/seal.jpg"}, "commit"=>"Create Campaign"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "campaigns" ("category_id", "created_at", "description", "expiration", "image_url", "target", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 0], ["created_at", Tue, 26 Nov 2013 15:12:26 UTC +00:00], ["description", "asd"], ["expiration", Fri, 26 Apr 2013 15:10:00 UTC +00:00], ["image_url", "/images/seal.jpg"], ["target", #<BigDecimal:1c55c50,'0.2E6',9(18)>], ["title", "Focalcool"], ["updated_at", Tue, 26 Nov 2013 15:12:26 UTC +00:00], ["user_id", 1]]
+  [1m[35m (190.5ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/2
+Completed 302 Found in 199ms (ActiveRecord: 191.4ms)
+
+
+Started GET "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered campaigns/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:12:27 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:12:30 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/campaigns/2/edit" for 127.0.0.1 at 2013-11-26 16:13:15 +0100
+Processing by CampaignsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (12.2ms)
+  Rendered campaigns/edit.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+Processing by CampaignsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category_id"=>"Children & Young People", "title"=>"Focalcool", "description"=>"asd", "target"=>"200000", "expiration(1i)"=>"2013", "expiration(2i)"=>"4", "expiration(3i)"=>"26", "expiration(4i)"=>"15", "expiration(5i)"=>"10", "image_url"=>"/images/seal.jpg"}, "commit"=>"Update Campaign", "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "campaigns" SET "category_id" = ?, "updated_at" = ? WHERE "campaigns"."id" = 2[0m  [["category_id", 0], ["updated_at", Tue, 26 Nov 2013 15:13:25 UTC +00:00]]
+  [1m[35m (170.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/2
+Completed 302 Found in 180ms (ActiveRecord: 171.5ms)
+
+
+Started GET "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered campaigns/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:13:25 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:13:33 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.4ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:15:18 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:15:20 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (12.7ms)
+  Rendered campaigns/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:16:23 +0100
+Processing by CampaignsController#new as HTML
+ERROR: compiling _app_views_campaigns__form_html_erb___2433570858312359189_70158525931120 RAISED /home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ']'
+...Category.all.map {|c| [c.name c.id]}, :prompt => "Select Cat...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected ']', expecting '}'
+...gory.all.map {|c| [c.name c.id]}, :prompt => "Select Categor...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected ')', expecting '}'
+..., :prompt => "Select Category") );@output_buffer.safe_append...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:45: syntax error, unexpected keyword_end, expecting '}'
+'; end 
+      ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:47: syntax error, unexpected keyword_ensure, expecting '}'
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:49: syntax error, unexpected keyword_end, expecting '}'
+Function body:           def _app_views_campaigns__form_html_erb___2433570858312359189_70158525931120(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "campaigns/_form";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for(@campaign) do |f| @output_buffer.safe_append='
+';   if @campaign.errors.any? 
+@output_buffer.safe_append='    <div id="error_explanation">
+      <h2>';@output_buffer.append=( pluralize(@campaign.errors.count, "error") );@output_buffer.safe_append=' prohibited this campaign from being saved:</h2>
+
+      <ul>
+';       @campaign.errors.full_messages.each do |msg| 
+@output_buffer.safe_append='        <li>';@output_buffer.append=( msg );@output_buffer.safe_append='</li>
+';       end 
+@output_buffer.safe_append='      </ul>
+    </div>
+';   end 
+@output_buffer.safe_append='
+  <div class="field">
+    ';@output_buffer.append=( f.label :user_id );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.number_field :user_id );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :category_id );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.select(:category_id, Category.all.map {|c| [c.name c.id]}, :prompt => "Select Category") );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :title );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :title );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :description );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_area :description );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :target );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :target );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :expiration );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.datetime_select :expiration );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :image_url );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :image_url );@output_buffer.safe_append='
+  </div>
+  <div class="actions">
+    ';@output_buffer.append=( f.submit );@output_buffer.safe_append='
+  </div>
+'; end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/new.html.erb:3:in `_app_views_campaigns_new_html_erb___4574235076881024183_70158561358980'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:413:in `_run__4073733910354277715__process_action__callbacks'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__4047758239758286356__call__callbacks'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered campaigns/_form.html.erb (20.8ms)
+  Rendered campaigns/new.html.erb within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ']'
+...Category.all.map {|c| [c.name c.id]}, :prompt => "Select Cat...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected ']', expecting '}'
+...gory.all.map {|c| [c.name c.id]}, :prompt => "Select Categor...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:20: syntax error, unexpected ')', expecting '}'
+..., :prompt => "Select Category") );@output_buffer.safe_append...
+...                               ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:45: syntax error, unexpected keyword_end, expecting '}'
+'; end 
+      ^
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:47: syntax error, unexpected keyword_ensure, expecting '}'
+/home/salvo/Documenti/RubyOnRails/heart_filler/app/views/campaigns/_form.html.erb:49: syntax error, unexpected keyword_end, expecting '}'):
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label :category_id %><br>
+    20:     <%= f.select(:category_id, Category.all.map {|c| [c.name c.id]}, :prompt => "Select Category") %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :title %><br>
+  app/views/campaigns/new.html.erb:3:in `_app_views_campaigns_new_html_erb___4574235076881024183_70158561358980'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (13.5ms)
+  Rendered campaigns/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:16:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:54 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:16:54 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:16:56 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (1.6ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered heart/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:41 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:42 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:17:42 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:18:32 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (11.6ms)
+  Rendered campaigns/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 16:19:28 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (12.8ms)
+  Rendered campaigns/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:29 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:19:38 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.5ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/campaigns/2/edit" for 127.0.0.1 at 2013-11-26 16:19:41 +0100
+Processing by CampaignsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (12.5ms)
+  Rendered campaigns/edit.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+Processing by CampaignsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category_id"=>"3", "title"=>"Focalcool", "description"=>"asd", "target"=>"200000", "expiration(1i)"=>"2013", "expiration(2i)"=>"4", "expiration(3i)"=>"26", "expiration(4i)"=>"15", "expiration(5i)"=>"10", "image_url"=>"/images/seal.jpg"}, "commit"=>"Update Campaign", "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "campaigns" SET "category_id" = ?, "updated_at" = ? WHERE "campaigns"."id" = 2[0m  [["category_id", 3], ["updated_at", Tue, 26 Nov 2013 15:19:46 UTC +00:00]]
+  [1m[35m (174.4ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/2
+Completed 302 Found in 181ms (ActiveRecord: 175.1ms)
+
+
+Started GET "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered campaigns/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:19:46 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:20:01 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered campaigns/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:35 +0100
+
+
+Started GET "/campaigns/2/edit" for 127.0.0.1 at 2013-11-26 16:20:44 +0100
+Processing by CampaignsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (12.5ms)
+  Rendered campaigns/edit.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:20:49 +0100
+Processing by CampaignsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category_id"=>"1", "title"=>"Focalcool", "description"=>"asd", "target"=>"200000", "expiration(1i)"=>"2013", "expiration(2i)"=>"4", "expiration(3i)"=>"26", "expiration(4i)"=>"15", "expiration(5i)"=>"10", "image_url"=>"/images/seal.jpg"}, "commit"=>"Update Campaign", "id"=>"2"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "campaigns" SET "category_id" = ?, "updated_at" = ? WHERE "campaigns"."id" = 2[0m  [["category_id", 1], ["updated_at", Tue, 26 Nov 2013 15:20:49 UTC +00:00]]
+  [1m[35m (189.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/2
+Completed 302 Found in 196ms (ActiveRecord: 189.7ms)
+
+
+Started GET "/campaigns/2" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCampaign Load (0.1ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered campaigns/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:20:50 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:20:53 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:26:50 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:27:03 +0100
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:03 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:04 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:27:43 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:27:44 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:47:59 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (The provided regular expression is using multiline anchors (^ or $), which may present a security risk. Did you mean to use \A and \z, or forgot to add the :multiline => true option?):
+  app/models/campaign.rb:7:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:49:53 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+ArgumentError (Unknown validator: 'DateValidator'):
+  app/models/campaign.rb:9:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:52:26 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (The provided regular expression is using multiline anchors (^ or $), which may present a security risk. Did you mean to use \A and \z, or forgot to add the :multiline => true option?):
+  app/models/campaign.rb:7:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:52:28 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (The provided regular expression is using multiline anchors (^ or $), which may present a security risk. Did you mean to use \A and \z, or forgot to add the :multiline => true option?):
+  app/models/campaign.rb:7:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (42.8ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:54:21 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `current' for :DateTime:Symbol):
+  app/models/campaign.rb:10:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:55:02 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `current' for :DateTime:Symbol):
+  app/models/campaign.rb:10:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:55:03 +0100
+Processing by HeartController#index as HTML
+Completed 500 Internal Server Error in 51ms
+
+NoMethodError (undefined method `current' for :DateTime:Symbol):
+  app/models/campaign.rb:10:in `<class:Campaign>'
+  app/models/campaign.rb:1:in `<top (required)>'
+  app/controllers/heart_controller.rb:3:in `index'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.6ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 41ms (Views: 33.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:36 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:55:39 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:39 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:55:40 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.5ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 41ms (Views: 34.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 16:59:56 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.6ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:32 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:33 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:38 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-11-26 17:01:45 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (11.1ms)
+  Rendered campaigns/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/campaigns" for 127.0.0.1 at 2013-11-26 17:01:55 +0100
+Processing by CampaignsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NKNXb49STj2Dr+5X6bthDMeO5TTWrWQqNm4cAHqT5Wk=", "campaign"=>{"user_id"=>"1", "category_id"=>"1", "title"=>"Focalcool", "description"=>"", "target"=>"", "expiration(1i)"=>"2013", "expiration(2i)"=>"11", "expiration(3i)"=>"26", "expiration(4i)"=>"16", "expiration(5i)"=>"01", "image_url"=>""}, "commit"=>"Create Campaign"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCampaign Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "campaigns" WHERE "campaigns"."title" = 'Focalcool' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (14.1ms)
+  Rendered campaigns/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 99ms (Views: 21.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 17:01:56 +0100
