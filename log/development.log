@@ -357,3 +357,209 @@ Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-23 18:37:15 +0100
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-23 18:37:15 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 09:28:00 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 2111ms (Views: 2016.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:04 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 09:28:35 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 140ms (Views: 103.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:36 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-11-26 09:28:44 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/sessions/new.html.erb within layouts/application (201.2ms)
+Completed 200 OK in 354ms (Views: 291.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-26 09:28:45 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-26 09:28:50 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/shared/_links.erb (0.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/registrations/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-11-26 09:28:55 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/shared/_links.erb (0.5ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2013-11-26 09:28:57 +0100
+Processing by Devise::PasswordsController#new as HTML
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.2.1/app/views/devise/passwords/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddActiveToUser (20131126091042)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD "active" boolean DEFAULT 'false' NOT NULL[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091042"]]
+  [1m[36m (121.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddActiveToUser (20131126091042)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "admin" boolean DEFAULT 'f' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime, "active" boolean DEFAULT 'f' NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "users"
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "admin" boolean DEFAULT 'f' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131126091042'
+  [1m[36m (114.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddActiveToUser (20131126091042)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "active" boolean DEFAULT 'true' NOT NULL[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091042"]]
+  [1m[36m (153.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCategories (20131126091638)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091638"]]
+  [1m[36m (146.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddCategoryIdToCampaign (20131126091740)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "campaigns" ADD "category_id" integer[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131126091740"]]
+  [1m[36m (112.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.9ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 09:23:48 UTC +00:00], ["name", "Animals & Wildlife"], ["updated_at", Tue, 26 Nov 2013 09:23:48 UTC +00:00]]
+  [1m[36m (114.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 09:24:39 UTC +00:00], ["name", "Art & Culture"], ["updated_at", Tue, 26 Nov 2013 09:24:39 UTC +00:00]]
+  [1m[35m (155.5ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 09:26:52 UTC +00:00], ["name", "Children & Young People"], ["updated_at", Tue, 26 Nov 2013 09:26:52 UTC +00:00]]
+  [1m[36m (140.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 09:27:26 UTC +00:00], ["name", "Medical & Health"], ["updated_at", Tue, 26 Nov 2013 09:27:26 UTC +00:00]]
+  [1m[35m (131.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 09:27:51 UTC +00:00], ["name", "Education"], ["updated_at", Tue, 26 Nov 2013 09:27:51 UTC +00:00]]
+  [1m[36m (144.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 26 Nov 2013 09:29:46 UTC +00:00], ["name", "Environment"], ["updated_at", Tue, 26 Nov 2013 09:29:46 UTC +00:00]]
+  [1m[35m (141.5ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Tue, 26 Nov 2013 09:29:59 UTC +00:00], ["name", "Other"], ["updated_at", Tue, 26 Nov 2013 09:29:59 UTC +00:00]]
+  [1m[36m (117.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m

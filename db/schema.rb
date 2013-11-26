@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131123000001) do
+ActiveRecord::Schema.define(version: 20131126091740) do
 
   create_table "campaigns", force: true do |t|
     t.integer  "user_id"
@@ -21,6 +21,13 @@ ActiveRecord::Schema.define(version: 20131123000001) do
     t.decimal  "budget",      precision: 10, scale: 2
     t.datetime "expiration"
     t.string   "image_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "category_id"
+  end
+
+  create_table "categories", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -74,6 +81,7 @@ ActiveRecord::Schema.define(version: 20131123000001) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "active",                 default: true,  null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
