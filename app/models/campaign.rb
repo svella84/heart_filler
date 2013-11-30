@@ -8,4 +8,5 @@ class Campaign < ActiveRecord::Base
 			   :numericality => { :greater_than => 0, }
 
   belongs_to :category
+  has_many :goods
 end

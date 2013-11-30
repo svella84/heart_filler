@@ -3,10 +3,12 @@ HeartFiller::Application.routes.draw do
   devise_for :users
 
   resources :users do
-  	resources :information
+    resources :information
   end
 
-  resources :campaigns
+  resources :campaigns do
+    resources :good
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

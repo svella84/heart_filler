@@ -4,10 +4,10 @@ class CreateInformation < ActiveRecord::Migration
       t.integer :user_id
       t.string :name
       t.string :surname
-      t.date :date_to_birth
-      t.string :province
+      t.date :date_of_birth
+      t.string :address
       t.string :city
-      t.string :street
+      t.string :country
       t.string :poste_code
       t.string :phone
       t.decimal :credit, :default => 0, :null => false, precision: 10, scale: 2

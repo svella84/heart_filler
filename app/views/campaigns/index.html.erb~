@@ -25,8 +25,8 @@
 	<td><%= campaign.category.name %></td>
         <td><%= campaign.title %></td>
         <td><%= campaign.description %></td>
-        <td><%= campaign.target %></td>
-        <td><%= campaign.budget %></td>
+        <td><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></td>
+        <td><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></td>
         <td><%= campaign.expiration %></td>
         <td><%= link_to 'Show', campaign %></td>
         <td><%= link_to 'Edit', edit_campaign_path(campaign) %></td>

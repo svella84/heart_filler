@@ -3,16 +3,19 @@ HeartFiller::Application.routes.draw do
   devise_for :users
 
   resources :users do
-  	resources :information
+    resources :information
   end
 
-  resources :campaigns
+  resources :campaigns do
+    resources :good
+  end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root :to => 'heart#index' , :as => 'HeartFiller'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

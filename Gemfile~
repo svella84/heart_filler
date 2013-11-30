@@ -47,5 +47,3 @@ end
 gem'hirb'
 
 gem 'devise'
-
-gem 'paperclip'

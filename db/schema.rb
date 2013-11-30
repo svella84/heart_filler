@@ -11,17 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131126091638) do
+ActiveRecord::Schema.define(version: 20131123000001) do
 
   create_table "campaigns", force: true do |t|
     t.integer  "category_id"
     t.integer  "user_id"
     t.string   "title"
     t.text     "description"
-    t.decimal  "target",      precision: 10, scale: 2
-    t.decimal  "budget",      precision: 10, scale: 2, default: 0.0, null: false
+    t.decimal  "target",                 precision: 10, scale: 2
+    t.decimal  "budget",                 precision: 10, scale: 2, default: 0.0, null: false
     t.datetime "expiration"
-    t.string   "image_url"
+    t.string   "image_url_file_name"
+    t.string   "image_url_content_type"
+    t.integer  "image_url_file_size"
+    t.datetime "image_url_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -37,6 +40,7 @@ ActiveRecord::Schema.define(version: 20131126091638) do
     t.string   "name"
     t.string   "description"
     t.decimal  "cost",        precision: 10, scale: 2
+    t.boolean  "reach",                                default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -51,8 +55,11 @@ ActiveRecord::Schema.define(version: 20131126091638) do
     t.string   "country"
     t.string   "poste_code"
     t.string   "phone"
-    t.decimal  "credit",        precision: 10, scale: 2, default: 0.0, null: false
-    t.string   "image_url"
+    t.decimal  "credit",                 precision: 10, scale: 2, default: 0.0, null: false
+    t.string   "image_url_file_name"
+    t.string   "image_url_content_type"
+    t.integer  "image_url_file_size"
+    t.datetime "image_url_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
