@@ -1,37 +1,32 @@
 <% if user_signed_in? %>
   <% if current_user.try(:admin?) %>
-
-    <p> Welcome Admin <%= current_user.email %></p>
-    <p><%= link_to "LogOut", destroy_user_session_path, :method => :delete %></p>
+    <h3>you have succesfully signed in Admin</h3>
+    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
     <%= render template: "campaigns/index" %>
-
-
   <% else %>
-    <p> Welcome <%= current_user.email %></p>
-	
-    <p><%= link_to "LogOut", destroy_user_session_path, :method => :delete %></p>
+    <h3>you have succesfully signed in User</h3>
+    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
   <% end %>
 <% else %>
 
-  <p><%= link_to "Crete New User", new_user_registration_path %></p>
-  <p>Login: <%= link_to "Login", new_user_session_path %></p>
-
-<h1>Campaign Active</h1>
-<% @campaigns.each do |campaign| %>
-	<div class="entry" >
-		<%= image_tag(campaign.image_url, :class => 'list_image') %>
-
-		<h3><%= campaign.title %></h3>
-		<h4><%= campaign.category.name %></h4>
-		<%=sanitize campaign.description %>
-		<div class="target_line" >
-			<span class="target" ><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
-		</div>
-		<div class="budget_line" >
-			<span class="budget" ><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
-		</div>
-	</div>
-<% end %>
-
+  <h1> Welcome to Heart Filler community </h1>
+  <%= link_to "Sign In", new_user_session_path, :method => :get %>
+  <%= link_to "Sign up", new_user_registration_path, :method => :get %>
+  
+  <h1>Campaign Active</h1>
+  <% @campaigns.each do |campaign| %>
+    <div class="entry" >
+      <%= image_tag(campaign.image_url, :class => 'list_image') %>
+      <h3><%= campaign.title %></h3>
+      <h4><%= campaign.category.name %></h4>
+      <%=sanitize campaign.description %>
+      <div class="target_line" >
+	<span class="target" ><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
+      </div>
+      <div class="budget_line" >
+        <span class="budget" ><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
+      </div>
+    </div>
+  <% end %>
 <% end %>
 

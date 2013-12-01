@@ -1,10 +1,7 @@
 HeartFiller::Application.routes.draw do
   get "heart/index"
-  devise_for :users
-
-  resources :users do
-    resources :information
-  end
+  devise_for :users,:controllers => { :registrations =>'registration'}
+  get 'dashboard' => 'heart#dashboard'
 
   resources :campaigns do
     resources :good

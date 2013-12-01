@@ -5545,3 +5545,1862 @@ Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-11-30 16:57:29 +0100
 
 
 Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-11-30 16:57:29 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:11:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 185ms (Views: 145.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:11:33 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 358ms (Views: 321.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:18:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:18:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:19:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 198ms (Views: 152.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:10 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+Processing by RegistrationController#new as HTML
+  Parameters: {"authenticity_token"=>"48v7OCh8pMv71HxXNiI2OMqW1sN3yrYpL+FrNDQl1fQ="}
+  Rendered devise/shared/_links.erb (2.4ms)
+  Rendered registration/new.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 110ms (Views: 101.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:19:22 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateInformation (20131123000001)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "information"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131123000001'[0m
+  [1m[35m (104.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateUsers (20131122235008)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DROP INDEX "index_users_on_reset_password_token"
+  [1m[36m (0.2ms)[0m  [1mDROP INDEX "index_users_on_email"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131122235008'[0m
+  [1m[35m (99.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20131122235008)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "admin" boolean DEFAULT 'false' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255), "failed_attempts" integer DEFAULT 0 NOT NULL, "unlock_token" varchar(255), "locked_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_confirmation_token" ON "users" ("confirmation_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_unlock_token" ON "users" ("unlock_token")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122235008"]]
+  [1m[36m (114.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateInformation (20131123000001)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "information" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar(255), "surname" varchar(255), "date_of_birth" date, "address" varchar(255), "city" varchar(255), "country" varchar(255), "poste_code" varchar(255), "phone" varchar(255), "credit" decimal(10,2) DEFAULT 0 NOT NULL, "image_url_file_name" varchar(255), "image_url_content_type" varchar(255), "image_url_file_size" integer, "image_url_updated_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131123000001"]]
+  [1m[36m (130.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:25:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 163ms (Views: 129.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:35 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"dHQW5xtCoA5mOj/mGuwlRv8GYaIafDUEZia7JtJ41/w="}
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 110ms (Views: 77.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:25:46 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dHQW5xtCoA5mOj/mGuwlRv8GYaIafDUEZia7JtJ41/w=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 6ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dHQW5xtCoA5mOj/mGuwlRv8GYaIafDUEZia7JtJ41/w=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 111ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:00 +0100
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:08 +0100
+
+
+Started POST "/users/password" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dHQW5xtCoA5mOj/mGuwlRv8GYaIafDUEZia7JtJ41/w=", "user"=>{"email"=>""}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 20ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:10 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:11 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 174ms (Views: 131.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:26:36 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+Processing by RegistrationController#new as HTML
+  Parameters: {"authenticity_token"=>"3vl9uu51Nj+cdfH10dCtq2XQjKY7TGbctgYJoI4yyKc="}
+  Rendered devise/shared/_links.erb (2.4ms)
+  Rendered registration/new.html.erb within layouts/application (100.4ms)
+Completed 200 OK in 119ms (Views: 110.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:06 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:07 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:07 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+Processing by RegistrationController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3vl9uu51Nj+cdfH10dCtq2XQjKY7TGbctgYJoI4yyKc=", "information"=>{"name"=>"Salvatore", "surname"=>"Vella"}, "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Invia"}
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'svella84@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'svella84@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sun, 01 Dec 2013 22:27:35 UTC +00:00], ["email", "svella84@gmail.com"], ["encrypted_password", "$2a$10$31.BrdaXhxVC2ib1flTuVucPM0fJdVU7qh.N593BWXGjc.YkPUtAi"], ["updated_at", Sun, 01 Dec 2013 22:27:35 UTC +00:00]]
+  [1m[36m (154.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "information" ("created_at", "name", "surname", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sun, 01 Dec 2013 22:27:35 UTC +00:00], ["name", "Salvatore"], ["surname", "Vella"], ["updated_at", Sun, 01 Dec 2013 22:27:35 UTC +00:00], ["user_id", 1]]
+  [1m[35m (158.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/dashboard
+Completed 302 Found in 439ms (ActiveRecord: 318.2ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+Processing by HeartController#dashboard as HTML
+  Rendered heart/dashboard.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:35 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered heart/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:46 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"3vl9uu51Nj+cdfH10dCtq2XQjKY7TGbctgYJoI4yyKc="}
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:27:51 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3vl9uu51Nj+cdfH10dCtq2XQjKY7TGbctgYJoI4yyKc=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `last_sign_in_ip`
+Binary data inserted for `string` type on column `current_sign_in_ip`
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Sun, 01 Dec 2013 22:28:10 UTC +00:00], ["current_sign_in_at", Sun, 01 Dec 2013 22:28:10 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Sun, 01 Dec 2013 22:28:10 UTC +00:00]]
+  [1m[36m (127.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 240ms (ActiveRecord: 128.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+Processing by HeartController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered heart/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:10 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-12-01 23:28:13 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wIJtMlmNbm3LEDQH/fyv20BzKShSZdCgt0ltpV+5xaQ="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:28:13 +0100
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:13 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:14 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 164ms (Views: 127.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:26 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+Processing by RegistrationController#new as HTML
+  Parameters: {"authenticity_token"=>"0ukr9+8KWrdWAIZmUhbw3ATw4MSpIKfRosYH0m6ljGs="}
+  Rendered devise/shared/_links.erb (2.5ms)
+  Rendered registration/new.html.erb within layouts/application (97.9ms)
+Completed 200 OK in 115ms (Views: 106.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:31 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+Processing by RegistrationController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ukr9+8KWrdWAIZmUhbw3ATw4MSpIKfRosYH0m6ljGs=", "information"=>{"name"=>"Michele", "surname"=>"Cirella"}, "user"=>{"email"=>"cirmic@yahoo.it", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Invia"}
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'cirmic@yahoo.it' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'cirmic@yahoo.it' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sun, 01 Dec 2013 22:28:59 UTC +00:00], ["email", "cirmic@yahoo.it"], ["encrypted_password", "$2a$10$3VjUIgkcXQHFSksEUd151.BXMcFFqUwuqjW5y/sUeD69Sn11upJCy"], ["updated_at", Sun, 01 Dec 2013 22:28:59 UTC +00:00]]
+  [1m[36m (162.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "information" ("created_at", "name", "surname", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sun, 01 Dec 2013 22:28:59 UTC +00:00], ["name", "Michele"], ["surname", "Cirella"], ["updated_at", Sun, 01 Dec 2013 22:28:59 UTC +00:00], ["user_id", 2]]
+  [1m[35m (137.3ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/dashboard
+Completed 302 Found in 423ms (ActiveRecord: 305.1ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+Processing by HeartController#dashboard as HTML
+  Rendered heart/dashboard.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:28:59 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0ukr9+8KWrdWAIZmUhbw3ATw4MSpIKfRosYH0m6ljGs="}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered heart/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:29:03 +0100
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mUPDATE "users" SET "admin" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["admin", true], ["updated_at", Sun, 01 Dec 2013 22:30:04 UTC +00:00]]
+  [1m[35m (117.8ms)[0m  commit transaction
+  [1m[36mInformation Load (0.7ms)[0m  [1mSELECT "information".* FROM "information"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:36:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 166ms (Views: 128.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:15 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"ywx7FILKF/Ig91vV477B2hpFly2rUrX7fzLz7P4I9yc="}
+  Rendered devise/shared/_links.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (71.1ms)
+Completed 200 OK in 111ms (Views: 79.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:21 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:36:38 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ywx7FILKF/Ig91vV477B2hpFly2rUrX7fzLz7P4I9yc=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", Sun, 01 Dec 2013 22:36:38 UTC +00:00], ["sign_in_count", 2], ["updated_at", Sun, 01 Dec 2013 22:36:38 UTC +00:00]]
+  [1m[35m (123.8ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 243ms (ActiveRecord: 128.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+Processing by HeartController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb (2.0ms)
+  Rendered heart/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:36:39 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-12-01 23:36:57 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (44.3ms)
+  Rendered campaigns/new.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered campaigns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:37:31 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-12-01 23:37:33 +0100
+Processing by CampaignsController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (13.1ms)
+  Rendered campaigns/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 175ms (Views: 125.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:40:39 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:41:08 +0100
+Processing by CampaignsController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered campaigns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:41:09 +0100
+
+
+Started GET "/campaigns/new" for 127.0.0.1 at 2013-12-01 23:41:11 +0100
+Processing by CampaignsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered campaigns/_form.html.erb (101.2ms)
+  Rendered campaigns/new.html.erb within layouts/application (105.2ms)
+Completed 200 OK in 117ms (Views: 112.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/campaigns" for 127.0.0.1 at 2013-12-01 23:42:12 +0100
+Processing by CampaignsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wOKyQLxAd0RdGpv2QZuKk+AeRmpXNsE4niUzMAk1zZY=", "campaign"=>{"user_id"=>"1", "category_id"=>"1", "title"=>"Focalcol", "description"=>"HELP THE SEAL !!!", "target"=>"200000", "expiration(1i)"=>"2014", "expiration(2i)"=>"4", "expiration(3i)"=>"1", "expiration(4i)"=>"12", "expiration(5i)"=>"00", "image_url"=>#<ActionDispatch::Http::UploadedFile:0x007f5b2c39b208 @tempfile=#<Tempfile:/tmp/RackMultipart20131201-12216-lj4ubl>, @original_filename="seal.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"campaign[image_url]\"; filename=\"seal.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Campaign"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: convert '/tmp/seal20131201-12216-1ud7tko.jpg[0]' -auto-orient -resize "300x300>" '/tmp/seal20131201-12216-1ud7tko20131201-12216-1a1yz6u'
+Command :: file -b --mime '/tmp/seal20131201-12216-1ud7tko20131201-12216-1a1yz6u'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: identify -format %m '/tmp/seal20131201-12216-1ud7tko.jpg[0]'
+Command :: convert '/tmp/seal20131201-12216-1ud7tko.jpg[0]' -auto-orient -resize "100x100>" '/tmp/seal20131201-12216-1ud7tko20131201-12216-17q3bjw'
+Command :: file -b --mime '/tmp/seal20131201-12216-1ud7tko20131201-12216-17q3bjw'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mCampaign Exists (0.2ms)[0m  SELECT 1 AS one FROM "campaigns" WHERE LOWER("campaigns"."title") = LOWER('Focalcol') LIMIT 1
+Binary data inserted for `string` type on column `image_url_content_type`
+  [1m[36mSQL (3.3ms)[0m  [1mINSERT INTO "campaigns" ("category_id", "created_at", "description", "expiration", "image_url_content_type", "image_url_file_name", "image_url_file_size", "image_url_updated_at", "target", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Sun, 01 Dec 2013 22:42:14 UTC +00:00], ["description", "HELP THE SEAL !!!"], ["expiration", Tue, 01 Apr 2014 12:00:00 UTC +00:00], ["image_url_content_type", "image/jpeg"], ["image_url_file_name", "seal.jpg"], ["image_url_file_size", 35949], ["image_url_updated_at", Sun, 01 Dec 2013 22:42:12 UTC +00:00], ["target", #<BigDecimal:4b130b0,'0.2E6',9(18)>], ["title", "Focalcol"], ["updated_at", Sun, 01 Dec 2013 22:42:14 UTC +00:00], ["user_id", 1]]
+  [1m[35m (130.9ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/1
+Completed 302 Found in 1433ms (ActiveRecord: 134.6ms)
+
+
+Started GET "/campaigns/1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCampaign Load (0.4ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered campaigns/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:14 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:42:16 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.5ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:30 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:42:50 +0100
+
+
+Started GET "/campaigns/1/edit" for 127.0.0.1 at 2013-12-01 23:42:53 +0100
+Processing by CampaignsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered campaigns/_form.html.erb (12.5ms)
+  Rendered campaigns/edit.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/campaigns/1" for 127.0.0.1 at 2013-12-01 23:43:02 +0100
+Processing by CampaignsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wOKyQLxAd0RdGpv2QZuKk+AeRmpXNsE4niUzMAk1zZY=", "campaign"=>{"user_id"=>"1", "category_id"=>"1", "title"=>"Focalcool", "description"=>"HELP THE SEAL !!!", "target"=>"200000", "expiration(1i)"=>"2014", "expiration(2i)"=>"4", "expiration(3i)"=>"1", "expiration(4i)"=>"12", "expiration(5i)"=>"00"}, "commit"=>"Update Campaign", "id"=>"1"}
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCampaign Exists (0.2ms)[0m  SELECT 1 AS one FROM "campaigns" WHERE (LOWER("campaigns"."title") = LOWER('Focalcool') AND "campaigns"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "campaigns" SET "title" = ?, "updated_at" = ? WHERE "campaigns"."id" = 1[0m  [["title", "Focalcool"], ["updated_at", Sun, 01 Dec 2013 22:43:02 UTC +00:00]]
+  [1m[35m (116.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/campaigns/1
+Completed 302 Found in 128ms (ActiveRecord: 117.1ms)
+
+
+Started GET "/campaigns/1" for 127.0.0.1 at 2013-12-01 23:43:02 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered campaigns/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:02 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:03 +0100
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:43:04 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:10 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"wOKyQLxAd0RdGpv2QZuKk+AeRmpXNsE4niUzMAk1zZY="}
+  Rendered devise/shared/_links.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 50ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:16 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:16 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:16 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:16 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:43:29 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wOKyQLxAd0RdGpv2QZuKk+AeRmpXNsE4niUzMAk1zZY=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Sun, 01 Dec 2013 22:36:38 UTC +00:00], ["current_sign_in_at", Sun, 01 Dec 2013 22:43:29 UTC +00:00], ["sign_in_count", 3], ["updated_at", Sun, 01 Dec 2013 22:43:29 UTC +00:00]]
+  [1m[36m (122.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 232ms (ActiveRecord: 123.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:43:29 +0100
+Processing by HeartController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered campaigns/index.html.erb (5.3ms)
+  Rendered heart/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:29 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:29 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:30 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:43:36 +0100
+Processing by HeartController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb (5.1ms)
+  Rendered heart/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:36 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:43:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (3.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered heart/index.html.erb within layouts/application (136.2ms)
+Completed 200 OK in 296ms (Views: 245.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:44 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:48:49 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"rsOi5vlBeLP4ZvSknsii9Zlt1hlzLFdWn27U/r+hqBw="}
+  Rendered devise/shared/_links.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 58ms (Views: 26.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:48:50 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-01 23:49:01 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rsOi5vlBeLP4ZvSknsii9Zlt1hlzLFdWn27U/r+hqBw=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Sun, 01 Dec 2013 22:43:29 UTC +00:00], ["current_sign_in_at", Sun, 01 Dec 2013 22:49:01 UTC +00:00], ["sign_in_count", 4], ["updated_at", Sun, 01 Dec 2013 22:49:01 UTC +00:00]]
+  [1m[36m (121.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 234ms (ActiveRecord: 123.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+Processing by HeartController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mCampaign Load (0.2ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered campaigns/index.html.erb (7.1ms)
+  Rendered heart/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/registration.css?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-12-01 23:49:02 +0100
+
+
+Started GET "/campaigns/1" for 127.0.0.1 at 2013-12-01 23:49:26 +0100
+Processing by CampaignsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCampaign Load (0.4ms)[0m  [1mSELECT "campaigns".* FROM "campaigns" WHERE "campaigns"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered campaigns/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/campaigns" for 127.0.0.1 at 2013-12-01 23:49:30 +0100
+Processing by CampaignsController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered campaigns/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.4ms)
