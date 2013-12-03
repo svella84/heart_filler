@@ -19,7 +19,7 @@ class RegistrationController < Devise::RegistrationsController
       @user.save
       @information.user = @user
       @information.save
-      redirect_to dashboard_path
+      redirect_to root_path
     else
       render :action => "new"
     end

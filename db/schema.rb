@@ -29,6 +29,9 @@ ActiveRecord::Schema.define(version: 20131123000001) do
     t.datetime "updated_at"
   end
 
+  add_index "campaigns", ["category_id"], name: "index_campaigns_on_category_id"
+  add_index "campaigns", ["user_id"], name: "index_campaigns_on_user_id"
+
   create_table "categories", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -38,12 +41,14 @@ ActiveRecord::Schema.define(version: 20131123000001) do
   create_table "goods", force: true do |t|
     t.integer  "campaign_id"
     t.string   "name"
-    t.string   "description"
+    t.text     "description"
     t.decimal  "cost",        precision: 10, scale: 2
-    t.boolean  "reach",                                default: false
+    t.boolean  "purchased",                            default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "goods", ["campaign_id"], name: "index_goods_on_campaign_id"
 
   create_table "information", force: true do |t|
     t.integer  "user_id"
@@ -53,7 +58,7 @@ ActiveRecord::Schema.define(version: 20131123000001) do
     t.string   "address"
     t.string   "city"
     t.string   "country"
-    t.string   "poste_code"
+    t.string   "post_code"
     t.string   "phone"
     t.decimal  "credit",                 precision: 10, scale: 2, default: 0.0, null: false
     t.string   "image_url_file_name"
@@ -64,15 +69,21 @@ ActiveRecord::Schema.define(version: 20131123000001) do
     t.datetime "updated_at"
   end
 
+  add_index "information", ["user_id"], name: "index_information_on_user_id"
+
   create_table "offers", force: true do |t|
     t.integer  "campaign_id"
     t.integer  "user_id"
-    t.integer  "good_id"
+    t.integer  "good_id",                              default: 0, null: false
     t.decimal  "donation",    precision: 10, scale: 2
     t.text     "comment"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "offers", ["campaign_id"], name: "index_offers_on_campaign_id"
+  add_index "offers", ["good_id"], name: "index_offers_on_good_id"
+  add_index "offers", ["user_id"], name: "index_offers_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "",    null: false

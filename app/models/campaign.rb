@@ -9,10 +9,11 @@ class Campaign < ActiveRecord::Base
   validates_length_of :title, minimum: 4, maximum: 255, allow_blank: true
 
   validates :description, :presence => true
+
   validates :target, :presence => true,
-    :numericality => { 
-      :greater_than_or_equal_to => 0.01, 
-    }
+            :numericality => { :greater_than_or_equal_to => 0.01 }
+  #fare in modo che 0.0156  si analizzato
+
   validate :check_date
 
   has_attached_file :image_url, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"

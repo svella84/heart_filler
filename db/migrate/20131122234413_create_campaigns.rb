@@ -1,12 +1,12 @@
 class CreateCampaigns < ActiveRecord::Migration
   def change
     create_table :campaigns do |t|
-      t.integer :category_id
-      t.integer :user_id
+      t.references :category, :index => true
+      t.references :user, :index => true
       t.string :title
       t.text :description
-      t.decimal :target, precision: 10, scale: 2
-      t.decimal :budget, :default => 0, :null => false, precision: 10, scale: 2
+      t.decimal :target, :precision => 10, :scale => 2
+      t.decimal :budget, :precision => 10, :scale => 2, :default => 0.0, :null => false
       t.datetime :expiration
       t.attachment :image_url
 
