@@ -1,17 +1,13 @@
 <% if user_signed_in? %>
   <% if current_user.try(:admin?) %>
     <h3>you have succesfully signed in Admin</h3>
-    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
     <%= render template: "campaigns/index" %>
   <% else %>
     <h3>you have succesfully signed in User</h3>
-    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
   <% end %>
 <% else %>
 
   <h1> Welcome to Heart Filler community </h1>
-  <%= link_to "Sign In", new_user_session_path, :method => :get %>
-  <%= link_to "Sign up", new_user_registration_path, :method => :get %>
   
   <h1>Campaign Active</h1>
   <% @campaigns.each do |campaign| %>

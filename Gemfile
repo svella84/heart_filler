@@ -49,3 +49,5 @@ gem'hirb'
 gem 'devise'
 
 gem 'paperclip'
+
+gem 'foundation-rails'
