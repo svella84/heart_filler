@@ -1,8 +1,14 @@
 HeartFiller::Application.routes.draw do
-  # You can have the root of your site routed with "root"
-  root :to => 'heart#index'
+  root :to => "heart#index"
+  get "static_pages/about", as: 'about'
+  get "static_pages/help", as: 'help'
 
-  devise_for :users, :controllers => { :registrations =>'registration'}
+  devise_for :users, :controllers => { :registrations => "users" }
+  devise_scope :user do
+    get "users/profile", :to => "users#show", :as => 'profile'
+    get "users/add_credit", :to => "users#add_credit", :as => 'add_credit'
+    post "users/update_credit", :to => "users#update_credit", :as => 'update_credit'
+  end
 
   resources :campaigns do
     resources :good

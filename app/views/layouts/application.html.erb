@@ -12,54 +12,20 @@
   </head>
 
   <body>
-    <div class="contain-to-grid fixed">
-      <nav class="top-bar" data-topbar data-options="is_hover: false">
-        <ul class="title-area">
-          <li class="name">
-            <h1><%= link_to 'HEART FILLER', root_path %></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
 
-        <section class="top-bar-section">   
-          <!-- Right Nav Section -->
-          <% if user_signed_in? %>
-            <ul class="right">
-              <li class="has-dropdown">
-                <a>WELCOME <%= current_user.information.name %></a>
-                <ul class="dropdown">
-                  <li><%= link_to 'Profilo' %></li>
-                  <li><%= link_to 'Le mie Donazioni' %></li>
-                  <li><%= link_to 'Le mie Campagne' %></li>
-                  <li><%= link_to 'Aggiungi Credito' %></li>
-                  <li class="divider"></li>
-                  <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
-                </ul>
-              </li>
-            </ul>
+    <%= render 'layouts/header' %>
 
-          <% else %>
-            <ul class="right">
-              <li class="divider"></li>
-              <li class="active"><%= link_to "Sign In", new_user_session_path, :method => :get %></li>
-              <li class="divider"></li>
-              <li class="active"><%= link_to "Sign up", new_user_registration_path, :method => :get %></li>     
-              <li class="divider"></li>
-            </ul>
-              
-          <% end %>
+    <div class="container">
+      <% flash.each do |key, value| %>
+        <div class="alert-box  radius <%= key %>"><%= value %></div>
+      <% end %>
 
-          <!-- Left Nav Section -->
-          <ul class="left">
-            <li class="divider"></li>
-            <li><%= link_to 'Lista Campagne', campaigns_path %></li>
-            <li class="divider"></li>
-          </ul>
-        </section>
-      </nav>
+      <%= yield %>
+
     </div>
+ 
+    <%= render 'layouts/footer' %>
 
-    <%= yield %>
     <%= javascript_include_tag "application" %>
   </body>
 </html>

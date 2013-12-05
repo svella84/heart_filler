@@ -1,0 +1,14 @@
+<h1>Visualizza profilo</h1>
+
+<table>
+  <tr><th>Nome</th><td><%= current_user.information.name %></td></tr>
+  <tr><th>Cognome</th><td><%= current_user.information.surname %></td></tr>
+  <tr><th>E-mail</th><td><%= current_user.email %></td></tr>
+  <tr><th>Data di nascita</th><td><%= current_user.information.date_of_birth %></td></tr>
+  <tr><th>Indirizzo</th><td><%= current_user.information.address %></td></tr>
+  <tr><th>Città</th><td><%= current_user.information.city %></td></tr>
+  <tr><th>Nazione</th><td><%= current_user.information.country %></td></tr>
+  <tr><th>CAP</th><td><%= current_user.information.post_code %></td></tr>
+  <tr><th>Telefono</th><td><%= current_user.information.phone %></td></tr>
+  <tr><td><%= button_to 'Aggiorna/Modifica', edit_user_registration_path, method: :get, class: 'btn btn-large btn-success' %></td></tr>
+</table>

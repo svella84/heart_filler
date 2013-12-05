@@ -1,0 +1,19 @@
+<h1>Aggiunta Credito</h1>
+
+<%= form_for(:information, url: update_credit_path) do |f| %>
+  <% @info.errors.any? do %>
+    <ul>
+      <% @info.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <div class="field">
+    <%= f.text_field :credit, :placeholder => 'Denaro...' %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Aggiungi', class: 'btn btn-success' %>
+  </div>
+<% end %>
