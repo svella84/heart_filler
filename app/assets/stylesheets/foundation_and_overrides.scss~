@@ -236,75 +236,75 @@
 
 // Dropdown
 
-// $include-html-button-classes: $include-html-classes;
+ $include-html-button-classes: $include-html-classes;
 
 // We use these to controls height and width styles.
-// $f-dropdown-max-width: 200px;
-// $f-dropdown-height: auto;
-// $f-dropdown-max-height: none;
-// $f-dropdown-margin-top: 2px;
+ $f-dropdown-max-width: 200px;
+ $f-dropdown-height: auto;
+ $f-dropdown-max-height: none;
+ $f-dropdown-margin-top: 2px;
 
 // We use this to control the background color
-// $f-dropdown-bg: #fff;
+ $f-dropdown-bg: #fff;
 
 // We use this to set the border styles for dropdowns.
-// $f-dropdown-border-style: solid;
-// $f-dropdown-border-width: 1px;
-// $f-dropdown-border-color: darken(#fff, 20%);
+ $f-dropdown-border-style: solid;
+ $f-dropdown-border-width: 1px;
+ $f-dropdown-border-color: darken(#fff, 20%);
 
 // We use these to style the triangle pip.
-// $f-dropdown-triangle-size: 6px;
-// $f-dropdown-triangle-color: #fff;
-// $f-dropdown-triangle-side-offset: 10px;
+ $f-dropdown-triangle-size: 6px;
+ $f-dropdown-triangle-color: #fff;
+ $f-dropdown-triangle-side-offset: 10px;
 
 // We use these to control styles for the list elements.
-// $f-dropdown-list-style: none;
-// $f-dropdown-font-color: #555;
-// $f-dropdown-font-size: rem-calc(14);
-// $f-dropdown-list-padding: rem-calc(5, 10);
-// $f-dropdown-line-height: rem-calc(18);
-// $f-dropdown-list-hover-bg: #eeeeee  ;
-// $dropdown-mobile-default-float: 0;
+ $f-dropdown-list-style: none;
+ $f-dropdown-font-color: #555;
+ $f-dropdown-font-size: rem-calc(14);
+ $f-dropdown-list-padding: rem-calc(5, 10);
+ $f-dropdown-line-height: rem-calc(18);
+ $f-dropdown-list-hover-bg: #eeeeee  ;
+ $dropdown-mobile-default-float: 0;
 
 // We use this to control the styles for when the dropdown has custom content.
-// $f-dropdown-content-padding: rem-calc(20);
+ $f-dropdown-content-padding: rem-calc(20);
 
 // Dropdown Buttons
 
-// $include-html-button-classes: $include-html-classes;
+ $include-html-button-classes: $include-html-classes;
 
 // We use these to set the color of the pip in dropdown buttons
-// $dropdown-button-pip-color: #fff;
-// $dropdown-button-pip-color-alt: #333;
+ $dropdown-button-pip-color: #fff;
+ $dropdown-button-pip-color-alt: #333;
 
-// $button-pip-tny: rem-calc(6);
-// $button-pip-sml: rem-calc(7);
-// $button-pip-med: rem-calc(9);
-// $button-pip-lrg: rem-calc(11);
+ $button-pip-tny: rem-calc(6);
+ $button-pip-sml: rem-calc(7);
+ $button-pip-med: rem-calc(9);
+ $button-pip-lrg: rem-calc(11);
 
 // We use these to style tiny dropdown buttons
-// $dropdown-button-padding-tny: $button-pip-tny * 7;
-// $dropdown-button-pip-size-tny: $button-pip-tny;
-// $dropdown-button-pip-opposite-tny: $button-pip-tny * 3;
-// $dropdown-button-pip-top-tny: -$button-pip-tny / 2 + rem-calc(1);
+ $dropdown-button-padding-tny: $button-pip-tny * 7;
+ $dropdown-button-pip-size-tny: $button-pip-tny;
+ $dropdown-button-pip-opposite-tny: $button-pip-tny * 3;
+ $dropdown-button-pip-top-tny: -$button-pip-tny / 2 + rem-calc(1);
 
 // We use these to style small dropdown buttons
-// $dropdown-button-padding-sml: $button-pip-sml * 7;
-// $dropdown-button-pip-size-sml: $button-pip-sml;
-// $dropdown-button-pip-opposite-sml: $button-pip-sml * 3;
-// $dropdown-button-pip-top-sml: -$button-pip-sml / 2 + rem-calc(1);
+ $dropdown-button-padding-sml: $button-pip-sml * 7;
+ $dropdown-button-pip-size-sml: $button-pip-sml;
+ $dropdown-button-pip-opposite-sml: $button-pip-sml * 3;
+ $dropdown-button-pip-top-sml: -$button-pip-sml / 2 + rem-calc(1);
 
 // We use these to style medium dropdown buttons
-// $dropdown-button-padding-med: $button-pip-med * 6 + rem-calc(3);
-// $dropdown-button-pip-size-med: $button-pip-med - rem-calc(3);
-// $dropdown-button-pip-opposite-med: $button-pip-med * 2.5;
-// $dropdown-button-pip-top-med: -$button-pip-med / 2 + rem-calc(2);
+ $dropdown-button-padding-med: $button-pip-med * 6 + rem-calc(3);
+ $dropdown-button-pip-size-med: $button-pip-med - rem-calc(3);
+ $dropdown-button-pip-opposite-med: $button-pip-med * 2.5;
+ $dropdown-button-pip-top-med: -$button-pip-med / 2 + rem-calc(2);
 
 // We use these to style large dropdown buttons
-// $dropdown-button-padding-lrg: $button-pip-lrg * 5 + rem-calc(3);
-// $dropdown-button-pip-size-lrg: $button-pip-lrg - rem-calc(6);
-// $dropdown-button-pip-opposite-lrg: $button-pip-lrg * 2.5;
-// $dropdown-button-pip-top-lrg: -$button-pip-lrg / 2 + rem-calc(3);
+ $dropdown-button-padding-lrg: $button-pip-lrg * 5 + rem-calc(3);
+ $dropdown-button-pip-size-lrg: $button-pip-lrg - rem-calc(6);
+ $dropdown-button-pip-opposite-lrg: $button-pip-lrg * 2.5;
+ $dropdown-button-pip-top-lrg: -$button-pip-lrg / 2 + rem-calc(3);
 
 // Flex Video
 
@@ -354,7 +354,7 @@
 // We use these to style the legends when you use them
  $legend-bg: #fff;
  $legend-font-weight: bold;
- $legend-padding: rem-calc(100 15);
+ $legend-padding: rem-calc(0 3);
 
 // We use these to style the prefix and postfix input elements
  $input-prefix-bg: darken(#fff, 5%);
@@ -539,40 +539,40 @@
 
 // Orbit
 
-// $include-html-orbit-classes: $include-html-classes;
+ $include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
-// $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: #fff;
-// $orbit-caption-font-size: rem-calc(14);
-// $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
-// $orbit-caption-padding: rem-calc(10,14);
-// $orbit-caption-height: auto;
+ $orbit-container-bg: none;
+ $orbit-caption-bg: rgba(51,51,51, 0.8);
+ $orbit-caption-font-color: #fff;
+ $orbit-caption-font-size: rem-calc(14);
+ $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
+ $orbit-caption-padding: rem-calc(10,14);
+ $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
-// $orbit-nav-bg: none;
-// $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: #fff;
-// $orbit-nav-arrow-color-hover: #fff;
+ $orbit-nav-bg: none;
+ $orbit-nav-bg-hover: rgba(0,0,0,0.3);
+ $orbit-nav-arrow-color: #fff;
+ $orbit-nav-arrow-color-hover: #fff;
 
 // We use these to control the timer styles
-// $orbit-timer-bg: rgba(255,255,255,0.3);
-// $orbit-timer-show-progress-bar: true;
+ $orbit-timer-bg: rgba(255,255,255,0.3);
+ $orbit-timer-show-progress-bar: true;
 
 // We use these to control the bullet nav styles
-// $orbit-bullet-nav-color: #ccc;
-// $orbit-bullet-nav-color-active: #999;
-// $orbit-bullet-radius: rem-calc(9);
+ $orbit-bullet-nav-color: #ccc;
+ $orbit-bullet-nav-color-active: #999;
+ $orbit-bullet-radius: rem-calc(9);
 
 // We use these to controls the style of slide numbers
-// $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
-// $orbit-slide-number-padding: rem-calc(5);
+ $orbit-slide-number-bg: rgba(0,0,0,0);
+ $orbit-slide-number-font-color: #fff;
+ $orbit-slide-number-padding: rem-calc(5);
 
 // Graceful Loading Wrapper and preloader
-// $wrapper-class: "slideshow-wrapper";
-// $preloader-class: "preloader";
+ $wrapper-class: "slideshow-wrapper";
+ $preloader-class: "preloader";
 
 // Pagination
 
@@ -608,27 +608,27 @@
 
 // Panels
 
-// $include-html-panel-classes: $include-html-classes;
+ $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: darken(#fff, 5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+ $panel-bg: darken(#fff, 5%);
+ $panel-border-style: solid;
+ $panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
-// $panel-function-factor: 10%;
-// $panel-border-color: darken($panel-bg, $panel-function-factor);
+ $panel-function-factor: 10%;
+ $panel-border-color: darken($panel-bg, $panel-function-factor);
 
 // We use these to set default inner padding and bottom margin
-// $panel-margin-bottom: rem-calc(20);
-// $panel-padding: rem-calc(20);
+ $panel-margin-bottom: rem-calc(20);
+ $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: #333;
-// $panel-font-color-alt: #fff;
+ $panel-font-color: #333;
+ $panel-font-color-alt: #fff;
 
-// $panel-header-adjust: true;
-// $callout-panel-link-color: $primary-color;
+ $panel-header-adjust: true;
+ $callout-panel-link-color: $primary-color;
 
 // Pricing Tables
 

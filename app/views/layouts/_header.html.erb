@@ -1,50 +1,51 @@
-<header>
-    <div class="contain-to-grid fixed">
-      <nav class="top-bar" data-topbar data-options="is_hover: false">
-        <ul class="title-area">
-          <li class="name">
-            <h1><%= link_to 'HEART FILLER', root_path %></h1>
+<!-- Navigation -->
+<div class="contain-to-grid fixed"> 
+  <nav class="top-bar" data-topbar data-options="is_hover: false">
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            <%= link_to 'HEART FILLER', root_path %>
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+ 
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <% if user_signed_in? %>
+        <ul class="right">
+          <li class="divider"></li>
+          <li class="has-dropdown">
+          <a>WELCOME <%= current_user.information.name %></a>
+            <ul class="dropdown">
+              <li><%= link_to 'Profilo', profile_path %></li>
+              <li><%= link_to 'Le mie Donazioni' %></li>
+              <li><%= link_to 'Le mie Campagne' %></li>
+              <li class="divider"></li>
+              <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
+            </ul>
           </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <%= link_to number_to_currency(current_user.information.credit, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %>
+            <ul class="dropdown">
+              <li><%= link_to 'Aggiungi Credito', add_credit_path %></li>
+              <li><%= link_to 'Fai Donazione', campaigns_path %></li>
+            </ul>
+          </li>
         </ul>
-
-        <section class="top-bar-section">   
-          <!-- Right Nav Section -->
-          <% if user_signed_in? %>
-            <ul class="right">
-              <li><%= link_to number_to_currency(current_user.information.credit, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></li>
-              <li class="has-dropdown">
-                <a>WELCOME <%= current_user.information.name %></a>
-                <ul class="dropdown">
-                  <li><%= link_to 'Profilo', profile_path %></li>
-                  <li><%= link_to 'Le mie Donazioni' %></li>
-                  <li><%= link_to 'Le mie Campagne' %></li>
-                  <li><%= link_to 'Aggiungi Credito', add_credit_path %></li>
-                  <li class="divider"></li>
-                  <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
-                </ul>
-              </li>
-            </ul>
-
-          <% else %>
-            <ul class="right">
-              <li class="divider"></li>
-              <li class="active"><%= link_to "Sign In", new_user_session_path, :method => :get %></li>
-              <li class="divider"></li>
-              <li class="active"><%= link_to "Sign up", new_user_registration_path, :method => :get %></li>     
-              <li class="divider"></li>
-            </ul>
-              
-          <% end %>
-
-          <!-- Left Nav Section -->
-          <ul class="left">
+        <% else %>
+          <ul class="right">
             <li class="divider"></li>
-            <li><%= link_to 'Lista Campagne', campaigns_path %></li>
+            <li class="active"><%= link_to "Sign In", new_user_session_path, :method => :get %></li>
             <li class="divider"></li>
-          </ul>
-        </section>
-      </nav>
-    </div>
-</header>
-
+            <li class="active"><%= link_to "Sign up", new_user_registration_path, :method => :get %></li>     
+            <li class="divider"></li>
+          </ul>              
+        <% end %>
+    </section>
+  </nav>
+</div>

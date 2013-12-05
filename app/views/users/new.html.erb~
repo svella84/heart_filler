@@ -16,7 +16,7 @@
 
       <% end %>
 
-      <div><%= f.text_field :email, :placeholder => 'E-mail' %></div>
+      <div><%= f.text_field :email, :autofocus => true, :placeholder => 'E-mail' %></div>
 
       <div><%= f.password_field :password, :placeholder => 'Password' %></div>
 

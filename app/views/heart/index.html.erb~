@@ -1,32 +1,53 @@
 <% if user_signed_in? %>
   <% if current_user.try(:admin?) %>
-    <h3>you have succesfully signed in Admin</h3>
-    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
-    <%= render template: "campaigns/index" %>
-  <% else %>
-    <h3>you have succesfully signed in User</h3>
-    <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
-  <% end %>
-<% else %>
-
-  <h1> Welcome to Heart Filler community </h1>
-  <%= link_to "Sign In", new_user_session_path, :method => :get %>
-  <%= link_to "Sign up", new_user_registration_path, :method => :get %>
-  
-  <h1>Campaign Active</h1>
-  <% @campaigns.each do |campaign| %>
-    <div class="entry" >
-      <%= image_tag(campaign.image_url, :class => 'list_image') %>
-      <h3><%= campaign.title %></h3>
-      <h4><%= campaign.category.name %></h4>
-      <%=sanitize campaign.description %>
-      <div class="target_line" >
-	<span class="target" ><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>you have succesfully signed in Admin</h3>
+        <%= render template: "campaigns/index" %>
       </div>
-      <div class="budget_line" >
-        <span class="budget" ><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></span>
+    </div>
+  <% else %>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>you have succesfully signed in User</h3>
       </div>
     </div>
   <% end %>
+<% else %>
+  <!-- First Band (Slider) -->
+
+  <div class="row">
+    <div class="large-12 columns">
+    <div data-orbit id="slider">
+      <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
+      <img src="http://placehold.it/1000x400&text=[ img 2 ]" />
+      <img src="http://placehold.it/1000x400&text=[ img 3 ]" />
+    </div>
+    
+    <hr />
+    </div>
+  </div>
+  
+<!-- Call to Action Panel -->
+<div class="row">
+    <div class="large-12 columns">
+    
+      <div class="panel">
+        <h4>Totale Donazioni!</h4>
+            
+        <div class="row">
+          <div class="large-9 columns">
+            <p>We'd love to hear from you, you attractive person you.</p>
+          </div>
+          <div class="large-3 columns">
+            <a href="#" class="radius button right">Guarda Le Campagne</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  
 <% end %>
 
