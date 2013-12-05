@@ -4,5 +4,8 @@
 
 body {
 	background-image: image-url("background.jpg");
+   	background-origin: padding-box;
+   	background-position: 50% 0;
    	background-repeat: no-repeat;
+   	background-size: cover;	
 }

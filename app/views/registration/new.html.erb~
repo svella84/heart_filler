@@ -23,7 +23,7 @@
     <%=password_field_tag "user[password_confirmation]",@user.password_confirmation, placeholder: 'Password Confirmation' %>
   </div>
 
-  <div><%= submit_tag nil, :class => "form_submit"%></div>
+  <div class="button [radius round]"><%= submit_tag nil %></div>
 
   <br />
 
