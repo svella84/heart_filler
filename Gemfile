@@ -42,5 +42,5 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Use Hirb for advanced console
+# Use Hirb for advanced consoles
 gem 'hirb'
