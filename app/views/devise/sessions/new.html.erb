@@ -1,10 +1,11 @@
 <div class="row">
   <div class="large-7 columns">
-    <h2>Effettua il Login</h2>
+    <h1>Effettua il Login</h1>
     <p>Aiutaci ad Aiutare chi ha bisogno di una mano</p>
   </div>
+
   <div class="large-5 columns">
-    <h2>Sign In</h2>
+    <h1>Sign In</h1>
     <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
 
       <div>
@@ -20,7 +21,7 @@
         </div>
       <% end -%>
 
-      <div><%= f.submit "Sign in" %></div>
+      <div><%= f.submit "Login", class: "button large-12" %></div>
       <%= render "devise/shared/links" %>
     <% end %>
   </div>

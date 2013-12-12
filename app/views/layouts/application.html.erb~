@@ -13,7 +13,9 @@
 
   <body>
     <%= render 'layouts/header' %>
-    <span></span>
+
+	</br>
+
     <div class="row">
       <div class="small-9 small-centered large-centered columns">
         <% flash.each do |key, value| %>

@@ -1,0 +1,92 @@
+<div class="row">
+  <div class="large-12 column">
+    <h1>Modifica profilo</h1>
+  </div>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+  <%= devise_error_messages! %>
+
+  <%= f.fields_for(:information, resource.information) do |info| %>
+
+    <div class="field large-6 column">
+      <%= info.text_field :name, placeholder: 'Nome' %>
+    </div>
+
+    <div class="field large-6 column">
+      <%= info.text_field :surname, placeholder: 'Cognome' %>
+    </div>
+
+    <div class="field large-12 column"> sta ciolla di data che non si formatta
+</br>      <%= info.date_select :date_of_birth, start_year: 1900, end_year: (Time.now.year-18), :order => [:day, :month, :year] %>
+    </div>
+
+    <div class="field large-2 column">
+      <%= info.text_field :post_code, placeholder: 'CAP' %>
+    </div>
+
+    <div class="field large-10 column">
+      <%= info.text_field :address, placeholder: 'Indirizzo' %>
+    </div>
+
+    <div class="field large-9 column">
+      <%= info.text_field :city, placeholder: 'Città' %>
+    </div>
+
+    <div class="field large-3 column">
+      <%= info.text_field :country, placeholder: 'Nazione' %>
+    </div>
+
+    <div class="field large-6 column">
+      <%= info.text_field :phone, placeholder: 'Numero di Telefono' %>
+    </div>
+  <% end %>
+
+  <div class="field large-6 column">
+    <%= f.text_field :email, :placeholder => 'E-mail' %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div class="field large-12 column">Attesa conferma per l'indirizzo email: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <fieldset class="large-12 column">
+    <legend><h4>Cambia password</h4></legend>
+      <div class="field large-6 column">
+        <%= f.password_field :password, :autocomplete => "off", :placeholder => 'Password' %>
+      </div>
+      <div class="field large-6 column">
+        <%= f.password_field :password_confirmation, :placeholder => 'Conferma password' %>
+      </div>
+
+      <div class="field large-12 column">
+        <i>Lascia i campi Password e Conferma Password vuoti se non desideri cambiare la password</i>
+      </div>
+
+  </fieldset>
+
+  <div class="field large-6 column">
+    <%= f.password_field :current_password, :placeholder => 'Password corrente' %>
+  </div>
+  <div class="field large-6 column">
+  	&nbsp;
+  </div>
+  <div class="field large-12 column">
+  	<i>(Abbiamo bisogno della tua password corrente per confermare i tuoi cambiamenti)</i>
+  </div>
+
+  <div class="actions large-12 column">
+    <%= f.submit "Aggiorna", data: { confirm: 'Sei sicuro?' }, class: 'button large-12 column'%>
+  </div>
+
+  <% end %>
+
+  <div class="large-12 column">
+    <h4>Elimina il mio account</h3>
+
+    <p>Infelice? Sei preso da un egoismo massimo? Speri che tutti muoiano in fretta e vuoi spendere i tuoi soldi in alcool e prostitute? Va bene, eliminati pure e clicca qui sotto!
+
+    <%= button_to "Elimina", registration_path(resource_name), class: 'button alert large-12 column', :data => { :confirm => "Sei sicuro? Il tuo profilo verrà eliminato per sempre!" }, :method => :delete %></p>
+  </div>
+
+</div>
+<div><p>ciolla ciolla </p></div>

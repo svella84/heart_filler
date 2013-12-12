@@ -1,3 +1,5 @@
+<div class="row">
+
 <h1>Listing campaigns</h1>
 
 <table>
@@ -20,7 +22,7 @@
   <tbody>
     <% @campaigns.each do |campaign| %>
       <tr>
-	<td><%= image_tag(campaign.image_url, :class => 'list_image') %></td>
+	<td><%= image_tag campaign.image_url.url(:thumb) %></td>
         <td><%= campaign.user_id %></td>
 	<td><%= campaign.category.name %></td>
         <td><%= campaign.title %></td>
@@ -28,9 +30,9 @@
         <td><%= number_to_currency(campaign.target, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></td>
         <td><%= number_to_currency(campaign.budget, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></td>
         <td><%= campaign.expiration %></td>
-        <td><%= link_to 'Show', campaign %></td>
-        <td><%= link_to 'Edit', edit_campaign_path(campaign) %></td>
-        <td><%= link_to 'Destroy', campaign, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', campaign, class: "tiny button"%></td>
+        <td><%= link_to 'Edit', edit_campaign_path(campaign), class: "tiny button" %></td>
+        <td><%= link_to 'Destroy', campaign, method: :delete, data: { confirm: 'Sei sicuro di voler eliminare questa campagna?' }, class: "tiny button" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -39,3 +41,5 @@
 <br>
 
 <%= link_to 'New Campaign', new_campaign_path %>
+
+</div>

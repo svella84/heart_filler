@@ -1,19 +1,27 @@
-<h1>Aggiunta Credito</h1>
+<div class="row"> 
+  <div class="large-12 columns">
+    <h1>Aggiunta Credito</h1>
 
-<%= form_for(:information, url: update_credit_path) do |f| %>
-  <% @info.errors.any? do %>
-    <ul>
-      <% @info.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+    <p>Per qual dannato motivo devo sprecare il mio denaro? Non lo so ma essendo figlio di Onassis non m'interessa...</p>
+
+    <%= form_for(:information, url: update_credit_path) do |f| %>
+      <% @info.errors.any? do %>
+        <ul>
+          <% @info.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
       <% end %>
-    </ul>
-  <% end %>
+    </div>
 
-  <div class="field">
+  <div class="field large-8 columns">
     <%= f.text_field :credit, :placeholder => 'Denaro...' %>
   </div>
 
   <div class="actions">
-    <%= f.submit 'Aggiungi', class: 'btn btn-success' %>
+    <%= f.submit 'Dona', class: 'button large-4 columns' %>
   </div>
-<% end %>
+
+  <% end %>
+
+</div>

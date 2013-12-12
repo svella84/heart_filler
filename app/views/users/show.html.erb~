@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="large-12 column">
+    <h1>Profilo di <%= current_user.information.name + " " + current_user.information.surname %></h1>    
+  </div>
+
+  <div class="large-5 column">
+    <img src="/immagine.png">
+  </div>
+
+  <div class="large-7 column">
+    <table class="large-12 column">
+    <tbody>
+      <tr>
+         <td><h4>E-mail</h4></td>
+         <td><h5><%= current_user.email %><h5></td> 
+      </tr>
+      <tr>
+         <td><h4>Data di nascita</h4></td>
+         <td><h5><%= current_user.information.date_of_birth %><h5></td> 
+      </tr>
+      <tr>
+      <tr>
+         <td><h4>Indirizzo</h4></td>
+         <td><h5><%= current_user.information.address %><h5></td> 
+      </tr>
+      <tr>
+         <td><h4>Città</h4></td>
+         <td><h5><%= current_user.information.city %><h5></td> 
+      </tr>
+      <tr>
+         <td><h4>Nazione</h4></td>
+         <td><h5><%= current_user.information.country %><h5></td> 
+      </tr>
+      <tr>
+         <td><h4>CAP</h4></td>
+         <td><h5><%= current_user.information.post_code %><h5></td> 
+      </tr>
+      <tr>
+         <td><h4>Telefono</h4></td>
+         <td><h5><%= current_user.information.phone %><h5></td> 
+      </tr>
+    </tbody>
+    </table>
+   
+  </div>
+
+  <div class="large-12 column">
+    <%= button_to 'Modifica', edit_user_registration_path, method: :get, class: 'button large-12 column' %>
+  </div>
+
+</div>
+
+<div> <p>ciolla</p> </div>
+
