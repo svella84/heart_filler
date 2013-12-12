@@ -1,6 +1,8 @@
 class Information < ActiveRecord::Base
   belongs_to :user
 
+  has_attached_file :image_url, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
+
   ONLY_LETTERS_REGEX = /\A[a-zA-Z]+\Z/
   ONLY_NUMBERS_REGEX = /\A[0-9]+\Z/
   CREDIT_REGEX = /\A[0-9]+((.|,)[0-9][0-9])?\Z/
@@ -23,16 +25,32 @@ class Information < ActiveRecord::Base
   validates_length_of :phone, minimum: 8, maximum: 15, :allow_blank => true
   validates :phone, format: { with: ONLY_NUMBERS_REGEX }, :allow_blank => true
 
-  validates :credit, numericality: { greater_than_or_equal_to: 0.01 }
-  #fare in modo che 0.0156  si analizzato
+  validates :credit, numericality: { greater_than_or_equal_to: 0.0 }, :allow_blank => true
 
-  def check_credit(value)
-    code = (value =~ CREDIT_REGEX) 
-    if code != 0
-      errors.add(:credit, 'non valido')
-      return false
+
+  def add_credit(value)
+    decimal = true
+
+    if value.is_a?(String)
+      decimal = check_credit(value)
     end
-    return true
+
+    if update(credit: credit+value.to_f) && decimal
+      return true
+    else
+      false
+    end
   end
+
+  private 
+    
+    def check_credit(value)
+      code = (value =~ CREDIT_REGEX) 
+      if code != 0
+        errors.add(:credit, 'non valido')
+        return false
+      end
+      return true
+    end
 
 end

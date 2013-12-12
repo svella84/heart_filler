@@ -19,7 +19,6 @@
          <td><h5><%= current_user.information.date_of_birth %><h5></td> 
       </tr>
       <tr>
-      <tr>
          <td><h4>Indirizzo</h4></td>
          <td><h5><%= current_user.information.address %><h5></td> 
       </tr>

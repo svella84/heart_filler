@@ -29,9 +29,9 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown triangle">
+          <li class="has-dropdown">
             <%= link_to number_to_currency(current_user.information.credit, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %>
-            <ul class="dropdown triangle">
+            <ul class="dropdown">
               <li><%= link_to 'Aggiungi Credito', add_credit_path %></li>
               <li><%= link_to 'Fai Donazione', campaigns_path %></li>
             </ul>

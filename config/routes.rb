@@ -1,5 +1,5 @@
 HeartFiller::Application.routes.draw do
-  root :to => "heart#index"
+  root :to => "heart_filler#index"
   get "static_pages/about", as: 'about'
   get "static_pages/help", as: 'help'
 
@@ -10,12 +10,18 @@ HeartFiller::Application.routes.draw do
     post "users/update_credit", :to => "users#update_credit", :as => 'update_credit'
   end
 
-  resources :campaigns do
-    resources :good
-  end
+  get 'campaigns/my_index', to: "campaigns#my_index", as: 'my_index'
+  resources :campaigns
+  
+  get 'offers/:id/new', to: 'offers#new', as: :new_offer
+  post 'offers/:id', to: 'offers#create', as: :offers
+  resources :offers, only: [:show, :index]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+
+  # You can have the root of your site routed with "root"
+  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

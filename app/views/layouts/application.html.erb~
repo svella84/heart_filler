@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
   <body>
     <%= render 'layouts/header' %>
 
-	</br>
+	
 
     <div class="row">
       <div class="small-9 small-centered large-centered columns">

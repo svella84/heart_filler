@@ -1,0 +1,15 @@
+<h1>Donazione per: <%= @campaign.title %></h1>
+
+<%= form_for @offer, url: offers_path(@campaign) do |f| %>
+  <div class="field">
+  	<%= f.text_field :donation, placeholder: 'Importo' %>
+  </div>
+
+  <div class="field">
+    <%= f.text_area :comment, placeholder: 'Inserire un commento per la donazione...' %>  
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Completa la donazione', class: 'btn btn-danger' %>
+  </div>
+<% end %>

@@ -11,20 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131123000001) do
+ActiveRecord::Schema.define(version: 20131208090521) do
 
   create_table "campaigns", force: true do |t|
-    t.integer  "category_id"
-    t.integer  "user_id"
     t.string   "title"
     t.text     "description"
     t.decimal  "target",                 precision: 10, scale: 2
-    t.decimal  "budget",                 precision: 10, scale: 2, default: 0.0, null: false
+    t.decimal  "budget",                 precision: 10, scale: 2, default: 0.0
     t.datetime "expiration"
     t.string   "image_url_file_name"
     t.string   "image_url_content_type"
     t.integer  "image_url_file_size"
     t.datetime "image_url_updated_at"
+    t.integer  "user_id"
+    t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -72,10 +72,10 @@ ActiveRecord::Schema.define(version: 20131123000001) do
   add_index "information", ["user_id"], name: "index_information_on_user_id"
 
   create_table "offers", force: true do |t|
-    t.integer  "campaign_id"
-    t.integer  "user_id"
-    t.integer  "good_id",                              default: 0, null: false
-    t.decimal  "donation",    precision: 10, scale: 2
+    t.integer  "campaign_id",             null: false
+    t.integer  "user_id",                 null: false
+    t.integer  "good_id",     default: 0, null: false
+    t.decimal  "donation"
     t.text     "comment"
     t.datetime "created_at"
     t.datetime "updated_at"

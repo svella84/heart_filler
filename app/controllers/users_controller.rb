@@ -1,4 +1,5 @@
 class UsersController < Devise::RegistrationsController
+  before_action :only_signed_in_user, only: [:show, :add_credit, :update_credit]
 
   def show
   end
@@ -9,11 +10,8 @@ class UsersController < Devise::RegistrationsController
 
   def update_credit
   	@info = current_user.information
-    quantity = params[:information][:credit]
-    new_credit = @info.credit + quantity.to_f
-    if @info.check_credit(quantity)
-      @info.update(credit: new_credit)
-      flash[:success] = "#{quantity}"
+    if @info.add_credit(params[:information][:credit])
+      flash[:success] = "Credito aggiunto correttamente!"
       redirect_to profile_path
     else
       render :action => 'add_credit'
@@ -27,7 +25,11 @@ class UsersController < Devise::RegistrationsController
   end
 
   def account_update_params
-    params.require(:user).permit(:email, :password, :password_confirmation, :current_password, :information_attributes => [:name, :surname, :date_of_birth, :address, :city, :country, :post_code, :phone])
+    params.require(:user).permit(:email, :password, :password_confirmation, :current_password, :information_attributes => [:name, :surname, :date_of_birth, :address, :city, :country, :post_code, :phone, :image_url])
+  end
+
+  def after_update_path_for(resource)
+    profile_path
   end
 
 end

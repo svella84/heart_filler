@@ -1,4 +1,0 @@
-class HeartController < ApplicationController
-  def index
-  end
-end

@@ -1,74 +1,75 @@
 class CampaignsController < ApplicationController
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :my_index, :destroy]
   before_action :set_campaign, only: [:show, :edit, :update, :destroy]
+  before_action :only_if_current_user_created_this_campaign, only: [:edit, :update, :destroy]
+  before_action :only_if_not_expired_and_target_not_achieved, only: [:edit, :update]
 
-  # GET /campaigns
-  # GET /campaigns.json
-  def index
-    @campaigns = Campaign.all
-  end
-
-  # GET /campaigns/1
-  # GET /campaigns/1.json
-  def show
-  end
-
-  # GET /campaigns/new
+  
   def new
-    @campaign = Campaign.new
+  	@campaign = Campaign.new
   end
 
-  # GET /campaigns/1/edit
+  def create
+  	@campaign = current_user.campaigns.build(campaign_params)
+
+  	if @campaign.save
+  	  flash[:success] = 'Campagna creata con successo'
+  	  redirect_to my_index_path
+  	else
+  	  render action: 'new'
+  	end
+  end
+
   def edit
   end
 
-  # POST /campaigns
-  # POST /campaigns.json
-  def create
-    @campaign = Campaign.new(campaign_params)
-
-    respond_to do |format|
-      if @campaign.save
-        format.html { redirect_to @campaign, notice: 'Campaign was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @campaign }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @campaign.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # PATCH/PUT /campaigns/1
-  # PATCH/PUT /campaigns/1.json
   def update
-    respond_to do |format|
-      if @campaign.update(campaign_params)
-        format.html { redirect_to @campaign, notice: 'Campaign was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @campaign.errors, status: :unprocessable_entity }
-      end
+
+    if @campaign.update(update_campaign_params)
+      flash[:success] = 'Campagna aggiornata con successo'
+      redirect_to my_index_path
+    else
+      render action: 'edit'
     end
+
   end
 
-  # DELETE /campaigns/1
-  # DELETE /campaigns/1.json
+  def show
+  end
+
+  def index
+  	@campaigns = Campaign.all.paginate(page: params[:page], per_page: 1)
+  end
+
+  def my_index
+  	@campaigns = current_user.campaigns.paginate(page: params[:page], per_page: 1)
+  end
+
   def destroy
-    @campaign.destroy
-    respond_to do |format|
-      format.html { redirect_to campaigns_url }
-      format.json { head :no_content }
+    offers = @campaign.offers
+
+    offers.each do |offer|
+      info = offer.user.information
+      info.add_credit(offer.donation)
     end
+
+    @campaign.destroy
+    redirect_to my_index_path
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_campaign
-      @campaign = Campaign.find(params[:id])
+
+    def campaign_params
+      #aggiungere immagine
+      params.require(:campaign).permit(:title, :description, :target, :expiration, :image_url)
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def campaign_params
-      params.require(:campaign).permit(:user_id, :category_id, :title, :description, :target, :budget, :expiration, :image_url)
+    def update_campaign_params
+      # aggiungere immagine
+      params.require(:campaign).permit(:title, :description)
+    end
+
+    def set_campaign
+      @campaign = Campaign.find(params[:id])
     end
 end

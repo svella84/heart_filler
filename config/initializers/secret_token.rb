@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-HeartFiller::Application.config.secret_key_base = '6f1757098ab08fb2fd0993dea1e1dae2ccb1a2a85fc5f103f7f2d44f60e6cee0c53aa7efc832c6ddf3d15d13913ffa42d1deb5d5a2aa9df23339b474def1bfe4'
+HeartFiller::Application.config.secret_key_base = '2413d04358ca2f35d9cadb224eaec0760e58e2219f8f3e695c22a736c7bf7f7f99eb09bb8d631bf5a18c4945667a2cf96971362cd2f54d51f2f6d62bce38215e'
