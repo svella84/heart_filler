@@ -563,3 +563,115 @@ Migrating to AddCategoryIdToCampaign (20131126091740)
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.2ms)[0m  commit transaction
   [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 16:54:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.3ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 158ms (Views: 126.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:54 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 16:54:58 +0100
+Processing by HeartController#index as HTML
+  [1m[36mCampaign Load (0.3ms)[0m  [1mSELECT "campaigns".* FROM "campaigns"[0m
+  Rendered heart/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+Processing by HeartController#index as HTML
+  [1m[35mCampaign Load (0.2ms)[0m  SELECT "campaigns".* FROM "campaigns"
+  Rendered heart/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 16:54:59 +0100
+
+
+Started GET "/assets/heart.css?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/heart.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 16:55:00 +0100
