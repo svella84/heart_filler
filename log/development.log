@@ -101286,3 +101286,679 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 16:30:07
 
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 16:30:07 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 17:10:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartFillerController#index as HTML
+  Rendered heart_filler/index.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 497ms (Views: 467.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/heart_filler.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/offers.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-12-12 17:10:42 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 17:10:43 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"YXK44fiAlcP00vN21eoh5tZxxEzpAOg24NFeBEnlRX4="}
+  Rendered devise/shared/_links.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (73.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 129ms (Views: 95.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/heart_filler.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/offers.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-12-12 17:11:49 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:50 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-12-12 17:11:58 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YXK44fiAlcP00vN21eoh5tZxxEzpAOg24NFeBEnlRX4=", "user"=>{"email"=>"svella84@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'svella84@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Thu, 12 Dec 2013 14:50:52 UTC +00:00], ["current_sign_in_at", Thu, 12 Dec 2013 16:11:58 UTC +00:00], ["sign_in_count", 6], ["updated_at", Thu, 12 Dec 2013 16:11:58 UTC +00:00]]
+  [1m[36m (139.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 266ms (ActiveRecord: 144.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 17:11:58 +0100
+Processing by HeartFillerController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered heart_filler/index.html.erb within layouts/application (2.1ms)
+  [1m[36mInformation Load (0.4ms)[0m  [1mSELECT "information".* FROM "information" WHERE "information"."user_id" = ? ORDER BY "information"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+  Rendered layouts/_header.html.erb (48.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 118.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/offers.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/heart_filler.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:11:59 +0100
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+Processing by UsersController#show as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mInformation Load (0.2ms)[0m  [1mSELECT "information".* FROM "information" WHERE "information"."user_id" = ? ORDER BY "information"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images/thumb/missing.png" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/thumb/missing.png"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/salvo/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/salvo/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:04 +0100
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+Processing by UsersController#edit as HTML
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mInformation Load (0.2ms)[0m  [1mSELECT "information".* FROM "information" WHERE "information"."user_id" = ? ORDER BY "information"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+  Rendered users/edit.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 94.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/heart_filler.css?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/offers.css?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:50 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 17:12:51 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-13 21:21:26 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeartFillerController#index as HTML
+  Rendered heart_filler/index.html.erb within layouts/application (29.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1078ms (Views: 1045.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/offers.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/heart_filler.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-12-13 21:21:28 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/heart_filler.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/offers.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 21:21:29 +0100
