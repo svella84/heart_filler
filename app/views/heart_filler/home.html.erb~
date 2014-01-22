@@ -1,0 +1,105 @@
+<!-- (Slider) -->
+
+<div class="row">
+  <div class="large-12 columns">
+  <div data-orbit id="slider">
+    <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
+    <img src="http://placehold.it/1000x400&text=[ img 2 ]" />
+    <img src="http://placehold.it/1000x400&text=[ img 3 ]" />
+  </div>
+    
+  <hr />
+  </div>
+</div><!-- End Slider -->
+
+<!-- Thumbnails -->
+<div class="row">
+  <div class="large-12 columns">
+    <div class="row">
+      <div class="large-7 columns">  
+        <div class="panel">
+          <h2>Aiutaci ad AIUTARE!!!<h2>
+          <h4>Per la tua donazione scegli tra le categorie</h4>
+            
+          <div class="row">
+            <div class="large-12 columns">
+              <p>We'd love to hear from you, you attractive person you.</p>
+            </div>
+            <div class="large-9 columns">
+              <h4>Totale Donazioni!</h4>
+              <%= number_to_currency(@total_donations,:unit => "€ ", :separator => ",", :delimiter => ".") %>
+            </div>
+            <div class="large-3 columns">
+              <%= link_to 'Guarda Le Campagne', campaigns_path, class: 'radius button right' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="large-5 right columns">
+        <div class="row">
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=1">
+            <%= image_tag "/system/category/wild.jpg" %>
+            <div class="panel">
+              <h6>Animal & Wildlife</h6>
+              <h6 class="subheader"><%= number_to_currency(@animal,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=2">
+            <img src="/system/category/art.jpg">
+            <div class="panel">
+              <h6>Art & Culture</h6>
+              <h6 class="subheader"><%= number_to_currency(@art,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=3">
+            <img src="/system/category/children.jpg">
+            <div class="panel">
+              <h6>Children & Youth</h6>
+              <h6 class="subheader"><%= number_to_currency(@children,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=4">
+            <img src="/system/category/education.jpg">
+            <div class="panel">
+              <h6>Education</h6>
+              <h6 class="subheader"><%= number_to_currency(@education,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=5">
+            <img src="/system/category/medical.jpg">
+            <div class="panel">
+              <h6>Medical</h6>
+              <h6 class="subheader"><%= number_to_currency(@medical,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+
+          <div class="large-6 small-6 columns">
+            <a href="/campaigns?category=6">
+            <img src="/system/category/other.jpg">
+            <div class="panel">
+              <h6>Other</h6>
+              <h6 class="subheader"><%= number_to_currency(@other,:unit => "€ ", :separator => ",", :delimiter => ".") %></h6>
+            </div>
+            </a>
+          </div>
+            
+        </div>
+      </div> 
+    </div>       
+  </div>
+</div><!-- End Thumbnails -->

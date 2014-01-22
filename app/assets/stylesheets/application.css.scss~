@@ -1,14 +1,17 @@
 /*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
  *= require_self
  *= require foundation_and_overrides
  *= require_tree .
-*/
-
-
-/* mixins, variables, etc. */
+ */
 
  body {
  	background-image: image-url("background.jpg");
@@ -18,3 +21,39 @@
    	background-size: cover;
  	padding-top: 60px;
  }
+
+.imgheader {
+	border-radius: 50%;
+        width: 30px;
+	height: 30px;
+}
+
+.comment {
+	border-radius: 50%;
+        width: 50px;
+	height: 50px;
+}
+
+.imgcampagn {
+	border-radius: 50%;
+        width: 120px;
+	height: 120px;
+}
+
+.showimgcampaign {
+	border-radius: 50%;
+        width: 250px;
+	height: 250px;
+}
+
+.good input, .good textarea{
+  display: inline-block!important;
+  width: 32%!important;
+  vertical-align: middle!important;
+  height: 50px!important;
+  padding: 8px!important;
+}
+
+.good textarea {
+  margin-right: 10px;
+}

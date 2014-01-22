@@ -1,2 +1,69 @@
 it:
   hello: "Ciao mondo"
+
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            current_password:
+              blank: "Hai lasciato vuoto il campo password"
+            password_confirmation:
+              confirmation: "la password e la conferma della password devono coincidere"
+            password: 
+              too_short: "la password è troppo corta"
+            email:
+              blank: "Hai lasciato la mail vuota: inseriscila" 
+              invalid: "Hai sbagliato ad inserire l'email"
+        
+        information:
+          attributes:
+            phone:
+              invalid: "Eh si ma il numero di telefono deve essere un numero!"
+              too_short: "Ricontrolla il numero di telefono: ne manca un pezzo!"
+
+        campaing:
+          attributes:
+            title:
+              blank: "Hai dimenticato di dare un nome alla tua campagna"
+              too_short: "Il titolo è importante: sembra tu abbia scritto un po' poco!"
+            description:
+              blank: "Hai dimenticato di descrivere la tua campagna"
+              too_short: "La descrizione è importante: sembra tu abbia scritto un po' poco!"
+            target:
+              blank: "Una campagna senza obiettivo è come un cielo senza stelle, forza vallo a mettere!"
+              not_a_number: "Un numero è un numero! Ricontrolla l'obiettivo della campagna e correggilo"
+
+
+
+# frammento di gestione delle date preso e tradotto da 
+# https://github.com/rails/rails/blob/master/activesupport/lib/active_support/locale/en.yml
+
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d-%m-%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+
+    day_names: [Lunedì, Martedì, Mercoledì, Giovedì, Venerdì, Sabato, Domenica]
+    abbr_day_names: [Lun, Mar, Mer, Gio, Ven, Sab, Dom]
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
+    abbr_month_names: [~, Gen, Feb, Mar, Apr, Mag, Giu, Lug, Ago, Set, Ott, Nov, Dic]
+    # Used in date_select and datetime_select.
+    order:
+      - day
+      - month
+      - year
+
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%d %B %Y, %H:%M"
+    am: "am"
+    pm: "pm"

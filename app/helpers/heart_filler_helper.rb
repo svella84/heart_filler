@@ -36,4 +36,8 @@ module HeartFillerHelper
       end
     end
 
+    def purchases?(campaign)
+        return campaign.goods.where(purchased: true).any?
+    end
+
 end

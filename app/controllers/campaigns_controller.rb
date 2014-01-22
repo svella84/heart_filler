@@ -6,18 +6,25 @@ class CampaignsController < ApplicationController
 
   
   def new
-  	@campaign = Campaign.new
+    @campaign = Campaign.new
+    @campaign.goods.build
   end
 
   def create
-  	@campaign = current_user.campaigns.build(campaign_params)
+    @campaign = current_user.campaigns.build(campaign_params)
 
-  	if @campaign.save
-  	  flash[:success] = 'Campagna creata con successo'
-  	  redirect_to my_index_path
-  	else
-  	  render action: 'new'
-  	end
+    if check_sum
+  	  if @campaign.save
+  	    flash[:success] = 'Campagna creata con successo'
+  	    redirect_to my_index_path
+    	else
+  	    render action: 'new'
+    	end
+    else
+      @params = params[:campaign][:goods_attributes]
+      flash.now[:error] = "La somma dei beni deve essere uguale al target della campagna!"
+      render action: 'new'
+    end
   end
 
   def edit
@@ -35,41 +42,106 @@ class CampaignsController < ApplicationController
   end
 
   def show
+    @donations = @campaign.offers.paginate(page: params[:page], per_page: 10)
+
+    year = @campaign.expiration.year - Time.now.year
+    @days = (@campaign.expiration.day - Time.now.day) + 365*year
+    @hours = @campaign.expiration.hour - Time.now.hour 
+    @minutes = @campaign.expiration.min - Time.now.min
+    @seconds = @campaign.expiration.sec - Time.now.sec
   end
 
   def index
-  	@campaigns = Campaign.all.paginate(page: params[:page], per_page: 1)
+    @categories = Category.all
+    category = params[:category]
+    if category == "" || category == nil
+  	  @campaigns = Campaign.all.paginate(page: params[:page], per_page: 5)
+    else
+      @campaigns = Campaign.where(category_id: category).paginate(page: params[:page], per_page: 5)
+    end
+
+    @animal, @art, @children, @education, @medical, @other = 0, 0, 0, 0, 0, 0
+
+  	Campaign.where(category_id: 1).each do |campaign|
+  		campaign.offers.each do |offer|
+  			@animal = @animal + offer.donation
+  		end
+  	end
+
+  	Campaign.where(category_id: 2).each do |campaign|
+  	    campaign.offers.each do |offer|
+  	      @art = @art + offer.donation
+  	  end
+  	end
+
+  	Campaign.where(category_id: 3).each do |campaign|
+  	  campaign.offers.each do |offer|
+  	    @childer = @childer + offer.donation
+  	  end
+  	end
+
+  	Campaign.where(category_id: 4).each do |campaign|
+  	  campaign.offers.each do |offer|
+  	    @education = @education + offer.donation
+  	  end
+  	end
+
+  	Campaign.where(category_id: 5).each do |campaign|
+  	  campaign.offers.each do |offer|
+  	    @medical = @medical + offer.donation
+  	  end
+  	end
+
+  	Campaign.where(category_id: 6).each do |campaign|
+  	  campaign.offers.each do |offer|
+  	    @other = @other + offer.donation
+  	  end
+  	end
   end
 
   def my_index
-  	@campaigns = current_user.campaigns.paginate(page: params[:page], per_page: 1)
+  	@campaigns = current_user.campaigns.paginate(page: params[:page], per_page: 5)
   end
 
   def destroy
-    offers = @campaign.offers
+    campaign = Campaign.find(params[:id])
+    offers = campaign.offers
 
     offers.each do |offer|
       info = offer.user.information
       info.add_credit(offer.donation)
     end
 
-    @campaign.destroy
+    campaign.destroy
     redirect_to my_index_path
   end
 
   private
 
     def campaign_params
-      #aggiungere immagine
-      params.require(:campaign).permit(:title, :description, :target, :expiration, :image_url)
+      params.require(:campaign).permit(:title, :category_id, :description, :target, :expiration, :image_url, goods_attributes: [:name, :description, :cost, :_destroy])
     end
 
     def update_campaign_params
-      # aggiungere immagine
-      params.require(:campaign).permit(:title, :description)
+      params.require(:campaign).permit(:title, :category_id, :description, :image_url)
     end
 
     def set_campaign
       @campaign = Campaign.find(params[:id])
+    end
+
+    def check_sum
+      sum = 0
+      params[:campaign][:goods_attributes].each do |key, hash|
+        if hash[:_destroy] != "true"
+          sum += hash[:cost].to_f
+        end
+      end
+
+      if sum == params[:campaign][:target].to_f
+        return true
+      else
+        return false
+      end
     end
 end

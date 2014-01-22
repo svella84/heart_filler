@@ -5,9 +5,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
             <%= link_to 'HEART FILLER', root_path %>
-          </a>
         </h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -19,10 +17,10 @@
         <ul class="right">
           <li class="divider"></li>
           <li class="has-dropdown">
-          <a>WELCOME <%= current_user.information.name %></a>
+            <a> <%= image_tag current_user.information.image_url.url(:small), :class => 'imgheader' %> <%= current_user.information.name %> <%= current_user.information.surname %> </a>
             <ul class="dropdown">
               <li><%= link_to 'Profilo', profile_path %></li>
-              <li><%= link_to 'Le mie Donazioni' %></li>
+              <li><%= link_to 'Le mie Donazioni', my_offers_path %></li>
               <li><%= link_to 'Le mie Campagne', my_index_path %></li>
               <li class="divider"></li>
               <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
@@ -30,7 +28,7 @@
           </li>
           <li class="divider"></li>
           <li class="has-dropdown">
-            <%= link_to number_to_currency(current_user.information.credit, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %>
+            <a>CREDIT <%= number_to_currency(current_user.information.credit, unit: "€", separator: ",", delimiter: ".", format: "%n %u") %></a>
             <ul class="dropdown">
               <li><%= link_to 'Aggiungi Credito', add_credit_path %></li>
               <li><%= link_to 'Fai Donazione', campaigns_path %></li>
@@ -42,7 +40,7 @@
             <li class="divider"></li>
             <li class="active"><%= link_to "Sign In", new_user_session_path, :method => :get %></li>
             <li class="divider"></li>
-            <li class="active"><%= link_to "Sign up", new_user_registration_path, :method => :get %></li>     
+            <li class="active"><%= link_to "Sign Up", new_user_registration_path, :method => :get %></li>     
             <li class="divider"></li>
           </ul>              
         <% end %>

@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1><%= @campaign.title %></h1>
+    <h2>Acquisto dei beni </h2>
+    <h3>Credito disponibile: <%= number_to_currency(@available_money,:unit => "€ ", :separator => ",", :delimiter => ".") %></h3>
+  </div>
+
+  <div class="large-12 columns">
+    <% @goods.each do |good| %>
+      <ul class="pricing-table"> 
+        <li class="title"> <%= good.name %> </li> 
+        <li class="price"> <%= number_to_currency good.cost, unit: '€', :separator => ",", :delimiter => "." %></li> 
+        <li class="description"> <%= good.description %> </li>  
+        <% unless good.purchased %>
+          <li class="cta-button"><%= link_to 'Acquista', buy_path(good), class: 'button large-4', data: { confirm: 'Sei sicuro?' } %></li> 
+        <% else %>
+          <li class="bullet-item">Acquistato!</li> 
+        <%end%>  
+      </ul>
+    <% end%>
+  </div>
+
+</div>
+
+
+

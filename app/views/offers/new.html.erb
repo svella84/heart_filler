@@ -1,15 +1,23 @@
-<h1>Donazione per: <%= @campaign.title %></h1>
-
-<%= form_for @offer, url: offers_path(@campaign) do |f| %>
-  <div class="field">
-  	<%= f.text_field :donation, placeholder: 'Importo' %>
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Donazione per: <%= @campaign.title %></h1>
   </div>
+</div>
 
-  <div class="field">
-    <%= f.text_area :comment, placeholder: 'Inserire un commento per la donazione...' %>  
-  </div>
+<div class="row">
+  <div class="large-12 columns">
+    <%= form_for @offer, url: offers_path(@campaign) do |f| %>
+      <div class="large-2 large-centered columns">
+       	<%= f.text_field :donation, placeholder: 'Importo' %>
+      </div>
 
-  <div class="actions">
-    <%= f.submit 'Completa la donazione', class: 'btn btn-danger' %>
+      <div class="large-12 columns">
+        <%= f.text_area :comment, placeholder: 'Inserire un commento per la donazione...' %>  
+      </div>
+
+      <div class="actions">
+        <%= f.submit 'Completa la donazione', class: 'button large-12 column' %>
+      </div>
+    <% end %>
   </div>
-<% end %>
+</div>

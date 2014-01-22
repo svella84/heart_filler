@@ -1,4 +1,6 @@
 HeartFiller::Application.routes.draw do
+  get "goods/goods_list"
+  get "goods/buy"
   root :to => "heart_filler#index"
   get "static_pages/about", as: 'about'
   get "static_pages/help", as: 'help'
@@ -13,9 +15,13 @@ HeartFiller::Application.routes.draw do
   get 'campaigns/my_index', to: "campaigns#my_index", as: 'my_index'
   resources :campaigns
   
+  resources :offers, only: [:show]
+  get 'offers/', to: 'offers#index', as: :my_offers
   get 'offers/:id/new', to: 'offers#new', as: :new_offer
   post 'offers/:id', to: 'offers#create', as: :offers
-  resources :offers, only: [:show, :index]
+
+  get 'goods/:id', to: 'goods#goods_list', as: :goods_list
+  get 'goods/buy/:id', to:  'goods#buy', as: :buy
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -39,10 +39,10 @@ class OffersController < ApplicationController
   end
 
   def show
-    
   end
 
   def index
+    @offers = current_user.offers
   end
 
 end

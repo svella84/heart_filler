@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +14,13 @@
   <body>
     <%= render 'layouts/header' %>
 
-	
-
     <div class="row">
-      <div class="small-9 small-centered large-centered columns">
+      <div class="small-10 small-centered large-10 large-centered columns">
         <% flash.each do |key, value| %>
-          <div class="alert-box  radius <%= key %>"><%= value %></div>
+          <div data-alert data-options="animation:slideUp;" class="alert-box <%= key %>">
+            <%= value %>
+            <a href="#" class="close">&times;</a>
+          </div>
         <% end %>
       </div>
     </div>
@@ -29,5 +30,6 @@
     <%= render 'layouts/footer' %>
 
     <%= javascript_include_tag "application" %>
+
   </body>
 </html>

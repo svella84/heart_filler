@@ -1,9 +1,0 @@
-<%= f.fields_for :goods, @campaign.goods.build, child_index: child_index do |good| %>
-
-  <%= good.text_field :name, placeholder: 'Nome' %>
-
-  <%= good.text_area :description, placeholder: 'Descrizione' %>
-
-  <%= good.text_field :cost, placeholder: 'Costo' %>
-
-<% end %>

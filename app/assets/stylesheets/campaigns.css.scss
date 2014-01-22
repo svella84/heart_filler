@@ -1,3 +1,195 @@
 // Place all the styles related to the Campaigns controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//giorno
+#campaign_expiration_3i{
+	display: inline;
+	width: 10%;
+}
+
+//mese
+#campaign_expiration_2i{
+	display: inline;
+	width: 20%;
+}
+
+//anno
+#campaign_expiration_1i{
+	display: inline;
+	width: 11%;
+}
+
+//ora
+#campaign_expiration_4i{
+	display: inline;
+	width: 10%;
+}
+
+//minuti
+#campaign_expiration_5i{
+	display: inline;
+	width: 10%;
+}
+
+.inline_text{
+	display: inline;
+}
+
+//CountDown
+.time{
+	display: block;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.time *{
+	vertical-align: center;
+}
+
+.time ins {
+	position: relative;
+	top: 10px;
+	width: 40px;
+	height: 55px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background: transparent url('/system/sprites.png') no-repeat -260px -154px;
+}
+
+.time ins{
+	width: 10px;
+}
+
+.time ins{
+	background-position: -300px -154px;
+}
+
+.time .etitle{
+	position: absolute;
+	width: 110px;
+	text-align: center;
+	left: 50%;
+	margin-left: -47px;
+	top: 55px;
+	line-height: 30px;
+}
+
+.etitle-1{
+	font-size: 1.6em;
+}
+
+.etitle-2{
+	font-size: 1.37em;
+	padding-top: .1em;
+}
+
+.etitle-3{
+	font-size: 1.12em;
+	padding-top: .2em;
+}
+
+.etitle-4{
+	font-size: .87em;
+	padding-top: .3em;
+}
+
+.c-block{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 0 10px 0 3px;
+	padding: 4px 0 20px 3px;
+	position: relative;
+	background: transparent url('/system/sprites.png') no-repeat -260px 0;
+}
+
+.c-block:before {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 31px;
+	background: transparent url('/system/sprites.png') no-repeat 100% -77px;
+	height: 77px;
+}
+
+.bl-inner{
+	position: relative;
+	margin-right: -10px;
+	height: 48px;
+	background: transparent url('/system/sprites.png') no-repeat -5px -48px;
+}
+
+.bl-inner span{
+	display: none;
+	font-size: 46px;
+	color: #fff;
+	line-height: 46px;
+	margin-left: 2px;
+}
+
+.bl-inner:before {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 3px;
+	background: transparent url('/system/sprites.png') no-repeat -122px -48px;
+	height: 48px;
+}
+
+.c-block-1{
+	width: 20px;
+}
+.c-block-2{
+	width: 45px;
+}
+.c-block-3{
+	width: 70px;
+}
+
+//GESTIONE DELLE IMAGINI IN CAMPAIGN
+.centra{
+	text-align: center;
+	padding: 10px;
+}
+
+.centralista{
+	text-align: center;
+	padding: 30px;
+}
+
+.comment {
+	border-radius: 50%;
+        width: 50px;
+	height: 50px;
+}
+
+.imgcampagn {
+	border-radius: 50%;
+        width: 140px;
+	height: 140px;
+}
+
+.show_img_campaign {
+	border-radius: 50%;
+        width: 280px;
+	height: 280px;
+}
+
+.good input, .good textarea{
+  display: inline-block!important;
+  width: 32%!important;
+  vertical-align: middle!important;
+  height: 50px!important;
+  padding: 8px!important;
+}
+
+.good textarea {
+  margin-right: 10px;
+}
+

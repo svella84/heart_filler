@@ -1,5 +1,54 @@
-<h1>New campaign</h1>
+<div class="row">
+  <div class="large-12 column">
+    <h1>Crea Campagna</h1>
 
-<%= render 'form' %>
+    <%= form_for @campaign, html: { multipart: true } do |f| %>
+      <% if @campaign.errors.any? %>
+        <ul>
+          <% @campaign.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      <% end %>
 
-<%= link_to 'Back', campaigns_path %>
+      <div class="large-7 column">
+        <%= f.text_field :title, placeholder: 'Titolo campagna' %>
+      </div>
+
+      <div class="large-3 column">
+        <%= f.select :category_id, Category.all.map { |c| [c.name, c.id] }, prompt: 'Seleziona una categoria' %>
+      </div>
+
+      <div class="large-2 column">
+        <%= f.text_field :target, placeholder: 'Richiesta fondi' %>
+      </div>
+
+      <div class="large-12 column">
+        <%= f.text_area :description, placeholder: 'Inserire una descrizione per la campagna...' %>
+      </div>
+
+      <div class="large-12 column">
+        <h4>Scadenza della campagna:</h4>
+        <%= f.datetime_select :expiration, start_year: Time.now.year, prompt: {day: 'Giorno', month: 'Mese', year: 'Anno', hour: 'Ora', minute: 'Minuti'} %>
+      </div>
+
+      <div class="large-12 column">
+        <h4>Carica un'immagine:</h4>
+        <%= f.file_field :image_url %>
+      </div>
+
+      <div class="good_list panel large-12 column">
+        <h4>Lista Beni</h4>
+        <%= f.fields_for :goods, child_index: Time.now.to_i do |good| %>
+          <%= render "good_fields", f: good %>
+        <% end %>
+      </div>
+
+      <div class="actions">
+        <%= link_to_add_fields(f, :goods) %>
+        <%= f.submit 'Crea', class: 'button' %>
+      </div>
+
+    <% end %>
+  </div>
+</div>

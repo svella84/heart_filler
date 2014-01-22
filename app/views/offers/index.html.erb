@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Le Mie Donazioni</h1>
+  </div>
+
+  <div class="large-12 columns">
+    <% @offers.each do |offer| %>
+      <ul class="pricing-table"> 
+        <li class="title"> <%= offer.campaign.title %> </li> 
+        <li class="price"> <%= number_to_currency offer.donation, unit: '€', :separator => ",", :delimiter => "." %></li> 
+        <li class="description"><%= offer.good.nil? ? "" : offer.good.name %> </li>  
+        <li class="bullet-item"><%= offer.created_at.nil? ? "" : offer.created_at.strftime("%d-%m-%Y %H:%M") %> </li> 
+      </ul>
+    <% end%>
+  </div>      	
+
+
+</div>

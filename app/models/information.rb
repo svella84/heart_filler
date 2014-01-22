@@ -1,7 +1,7 @@
 class Information < ActiveRecord::Base
   belongs_to :user
 
-  has_attached_file :image_url, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
+  has_attached_file :image_url, :styles => { :large => "980x980>", :medium => "300x300>", :thumb => "100x100>", :small => "30x30>" }, :default_url => "/images/:style/missing.png"
 
   ONLY_LETTERS_REGEX = /\A[a-zA-Z]+\Z/
   ONLY_NUMBERS_REGEX = /\A[0-9]+\Z/
@@ -32,13 +32,15 @@ class Information < ActiveRecord::Base
     decimal = true
 
     if value.is_a?(String)
+      value.gsub!(",", ".")
       decimal = check_credit(value)
     end
 
-    if update(credit: credit+value.to_f) && decimal
+    if decimal
+      update(credit: credit+value.to_f)
       return true
     else
-      false
+      return false
     end
   end
 

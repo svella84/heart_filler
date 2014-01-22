@@ -14,6 +14,7 @@ class UsersController < Devise::RegistrationsController
       flash[:success] = "Credito aggiunto correttamente!"
       redirect_to profile_path
     else
+      flash.now[:error] = "Importo non corretto!"
       render :action => 'add_credit'
     end
   end

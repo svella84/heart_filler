@@ -128,21 +128,21 @@
  $alert-padding-top: rem-calc(14);
  $alert-padding-default-float: $alert-padding-top;
  $alert-padding-opposite-direction: $alert-padding-top + rem-calc(10);
- $alert-padding-bottom: $alert-padding-top;
+ $alert-padding-bottom: $alert-padding-top + rem-calc(1);
 
 // We use these to control text style.
  $alert-font-weight: bold;
  $alert-font-size: rem-calc(14);
  $alert-font-color: #fff;
- $alert-font-color-alt: darken($secondary-color, 60%);
+ $alert-font-color-alt: scale-color($secondary-color, $lightness: -66%);
 
 // We use this for close hover effect.
- $alert-function-factor: 10%;
+ $alert-function-factor: 0%;
 
 // We use these to control border styles.
  $alert-border-style: solid;
  $alert-border-width: 1px;
- $alert-border-color: darken($primary-color, $alert-function-factor);
+ $alert-border-color: scale-color($primary-color, $lightness: $alert-function-factor);
  $alert-bottom-margin: rem-calc(20);
 
 // We use these to style the close buttons
@@ -329,15 +329,15 @@
  $form-label-pointer: pointer;
  $form-label-font-size: rem-calc(14);
  $form-label-font-weight: 500;
- $form-label-font-color: lighten(#000, 30%);
+ $form-label-font-color: scale-color(#000, $lightness: 30%);
  $form-label-bottom-margin: rem-calc(3);
  $input-font-family: inherit;
  $input-font-color: rgba(0,0,0,0.75);
  $input-font-size: rem-calc(14);
  $input-bg-color: #fff;
- $input-focus-bg-color: darken(#fff, 2%);
- $input-border-color: darken(#fff, 20%);
- $input-focus-border-color: darken(#fff, 40%);
+ $input-focus-bg-color: scale-color(#fff, $lightness: -2%);
+ $input-border-color: scale-color(#fff, $lightness: -20%);
+ $input-focus-border-color: scale-color(#fff, $lightness: -40%);
  $input-border-style: solid;
  $input-border-width: 1px;
  $input-disabled-bg: #ddd;
@@ -354,11 +354,11 @@
 // We use these to style the legends when you use them
  $legend-bg: #fff;
  $legend-font-weight: bold;
- $legend-padding: rem-calc(0 3);
+ $legend-padding: rem-calc(8 20);
 
 // We use these to style the prefix and postfix input elements
- $input-prefix-bg: darken(#fff, 5%);
- $input-prefix-border-color: darken(#fff, 20%);
+ $input-prefix-bg: scale-color(#fff, $lightness: -5%);
+ $input-prefix-border-color: scale-color(#fff, $lightness: -20%);
  $input-prefix-border-size: 1px;
  $input-prefix-border-type: solid;
  $input-prefix-overflow: hidden;
@@ -366,7 +366,7 @@
  $input-prefix-font-color-alt: #fff;
 
 // We use these to style the error states for inputs and labels
- $input-error-message-padding: rem-calc(6 9 9);
+ $input-error-message-padding: rem-calc(6 4);
  $input-error-message-top: 0;
  $input-error-message-font-size: rem-calc(12);
  $input-error-message-font-weight: bold;
@@ -611,12 +611,12 @@
  $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
- $panel-bg: darken(#fff, 5%);
+ $panel-bg: darken(#fff, 25%);
  $panel-border-style: solid;
  $panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
- $panel-function-factor: 10%;
+ $panel-function-factor: 5%;
  $panel-border-color: darken($panel-bg, $panel-function-factor);
 
 // We use these to set default inner padding and bottom margin
@@ -632,55 +632,55 @@
 
 // Pricing Tables
 
-// $include-html-pricing-classes: $include-html-classes;
+ $include-html-pricing-classes: $include-html-classes;
 
 // We use this to control the border color
-// $price-table-border: solid 1px #ddd;
+ $price-table-border: solid 1px #ddd;
 
 // We use this to control the bottom margin of the pricing table
-// $price-table-margin-bottom: rem-calc(20);
+ $price-table-margin-bottom: rem-calc(20);
 
 // We use these to control the title styles
-// $price-title-bg: #333;
-// $price-title-padding: rem-calc(15 20);
-// $price-title-align: center;
-// $price-title-color: #eee;
-// $price-title-weight: normal;
-// $price-title-size: rem-calc(16);
-// $price-title-font-family: $body-font-family;
+ $price-title-bg: #B3B3B3;	//#333;	
+ $price-title-padding: rem-calc(15 20);
+ $price-title-align: center;
+ $price-title-color: #333;	//#eee;
+ $price-title-weight: normal;
+ $price-title-size: rem-calc(16);
+ $price-title-font-family: $body-font-family;
 
 // We use these to control the price styles
-// $price-money-bg: #f6f6f6  ;
-// $price-money-padding: rem-calc(15 20);
-// $price-money-align: center;
-// $price-money-color: #333;
-// $price-money-weight: normal;
-// $price-money-size: rem-calc(32);
-// $price-money-font-family: $body-font-family;
+ $price-money-bg: #f6f6f6  ;
+ $price-money-padding: rem-calc(15 20);
+ $price-money-align: center;
+ $price-money-color: #333;
+ $price-money-weight: normal;
+ $price-money-size: rem-calc(32);
+ $price-money-font-family: $body-font-family;
 
 
 // We use these to control the description styles
-// $price-bg: #fff;
-// $price-desc-color: #777;
-// $price-desc-padding: rem-calc(15);
-// $price-desc-align: center;
-// $price-desc-font-size: rem-calc(12);
-// $price-desc-weight: normal;
-// $price-desc-line-height: 1.4;
-// $price-desc-bottom-border: dotted 1px #ddd;
+ $price-bg: #fff;
+ $price-desc-color: #777;
+ $price-desc-padding: rem-calc(15);
+ $price-desc-align: center;
+ $price-desc-font-size: rem-calc(12);
+ $price-desc-weight: normal;
+ $price-desc-line-height: 1.4;
+ $price-desc-bottom-border: dotted 1px #ddd;
 
 // We use these to control the list item styles
-// $price-item-color: #333;
-// $price-item-padding: rem-calc(15);
-// $price-item-align: center;
-// $price-item-font-size: rem-calc(14);
-// $price-item-weight: normal;
-// $price-item-bottom-border: dotted 1px #ddd;
+ $price-item-color: #333;
+ $price-item-padding: rem-calc(15);
+ $price-item-align: center;
+ $price-item-font-size: rem-calc(14);
+ $price-item-weight: normal;
+ $price-item-bottom-border: dotted 1px #ddd;
 
 // We use these to control the CTA area styles
-// $price-cta-bg: #fff;
-// $price-cta-align: center;
-// $price-cta-padding: rem-calc(20 20 0);
+ $price-cta-bg: #fff;
+ $price-cta-align: center;
+ $price-cta-padding: rem-calc(20 20 0);
 
 // Progress Meters
 
@@ -937,10 +937,11 @@
  $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
+ $topbar-input-height: 2.45em;
 
 // Controlling the styles for the title in the top bar
  $topbar-title-weight: bold;
- $topbar-title-font-size: rem-calc(20);
+ $topbar-title-font-size: rem-calc(25);
 
 // Style the top bar dropdown elements
  $topbar-dropdown-bg: #333;

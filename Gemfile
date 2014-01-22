@@ -14,10 +14,13 @@ gem 'paperclip'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+
+# Use Foundation for stylesheets
 gem 'foundation-rails'
 
 # Use Will-Paginate for the presentation
 gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -42,5 +45,5 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Use Hirb for advanced consoles
+# Use Hirb for advanced console
 gem 'hirb'

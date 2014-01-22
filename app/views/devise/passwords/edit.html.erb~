@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Cambia password</h1>
+
+    <%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f| %>
+    <%= devise_error_messages! %>
+    <%= f.hidden_field :reset_password_token %>
+
+    <div class="field small-10 small-centered large-10 large-centered columns">
+      <%= f.password_field :password, :autofocus => true, :placeholder => 'Inserisci la nuova password'  %>
+    </div>
+
+    <div class="field small-10 small-centered large-10 large-centered columns">
+      <%= f.password_field :password_confirmation, :placeholder => 'Conferma la nuova password'  %>
+    </div>
+
+    <div class="action small-10 small-centered large-10 large-centered columns">
+      <%= f.submit "Cambia la password", class: 'button small-12 large-12 columns' %>
+    </div>
+    <% end %>
+
+    <div class="large-12 columns">
+      <%= render "devise/shared/links_nil" %>
+    </div>
+  
+  </div>
+
+</div>

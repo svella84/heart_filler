@@ -1,44 +1,131 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
+  <div class="large-12 column">
+    <h1><%= @campaign.title %></h1>
+  </div>
+</div>
+<div class="row">
+  <div class="large-5 column centra">
+    <%= image_tag @campaign.image_url.url(:medium), class:'show_img_campaign' %>
+  </div>
 
-<p>
-  <strong>User:</strong>
-  <%= @campaign.user_id %>
-</p>
+  <div class="large-7 column">
+    <table class="large-12 column">
+      <tr>
+        <td><h4>Descrizione</h4></td>
+        <td>
+          <p><%= @campaign.description %></p>
+        </td>
+      </tr>
 
-<p>
-  <strong>Category:</strong>
-  <%= @campaign.category_id %>
-</p>
+      <tr>
+        <td><h4>Termine</h4></td>
+        <% if expiration_done?(@campaign) || target_achieved?(@campaign) %>
+        <td><h5>CAMPAGNA TERMINATA</h5></td>
+        <% else %>
+          <td>
+            <div class="time">
+              <div class="c-block c-block-3"><div class="bl-inner"><span><%= @days %></span></div> <span class="etitle etitle-1">Giorni</span></div> <ins></ins>
+              <div class="c-block c-block-2"><div class="bl-inner"><span><%= @hours %></span></div> <span class="etitle etitle-2">Ore</span></div> <ins></ins>
+              <div class="c-block c-block-2"><div class="bl-inner"><span><%= @minutes %></span></div> <span class="etitle etitle-3">Minuti</span></div> <ins></ins>
+              <div class="c-block c-block-2"><div class="bl-inner"><span><%= @seconds %></span></div> <span class="etitle etitle-4">Secondi</span></div>
+            </div>
+	  </td>
+        <% end %>
+      </tr>
 
-<p>
-  <strong>Title:</strong>
-  <%= @campaign.title %>
-</p>
+      <tr>
+        <td><h4>Target</h4></td>
+        <td><h5><%= number_to_currency(@campaign.target,:unit => "€ ", :separator => ",", :delimiter => ".") %></h5></td>
+      </tr>
 
-<p>
-  <strong>Description:</strong>
-  <%= @campaign.description %>
-</p>
+      <tr>
+        <td><h4>Budget</h4></td>
+        <td><h5><%= number_to_currency(@campaign.budget,:unit => "€ ", :separator => ",", :delimiter => ".") %></h5></td>
+     </tr>
 
-<p>
-  <strong>Target:</strong>
-  <%= @campaign.target %>
-</p>
+    <% if signed_in? %>
+      <tr>
+        <td colspan="2">
+          <% if current_user_created_this_campaign? %>
+              <% unless target_achieved?(@campaign) %>
+                <%= button_to 'Dona', new_offer_path(@campaign), method: :get, class: 'button large-12 column' %>  
+              <% end %>
 
-<p>
-  <strong>Budget:</strong>
-  <%= @campaign.budget %>
-</p>
+              <% unless expiration_done?(@campaign) || target_achieved?(@campaign) %>
+                <%= button_to 'Aggiorna', edit_campaign_path(@campaign), method: :get, class: 'button large-12 column' %>  
+              <% end %>
 
-<p>
-  <strong>Expiration:</strong>
-  <%= @campaign.expiration %>
-</p>
+              <%= button_to 'Procedi agli acquisti', goods_list_path(@campaign), method: :get, class: 'button success large-12 column' %>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @campaign.image_url %>
-</p>
+              <% unless purchases?(@campaign) %>
+                <%= button_to "Elimina", campaign_path(@campaign), class: 'button alert large-12 column', :data => { :confirm => 'Sei sicuro? Tutti i soldi saranno restituiti!' }, :method => :delete %>
+              <% end %>
 
-<%= link_to 'Edit', edit_campaign_path(@campaign) %> |
-<%= link_to 'Back', campaigns_path %>
+          <% else %>
+            <% unless expiration_done?(@campaign) || target_achieved?(@campaign) %>
+              <%= button_to 'Dona', new_offer_path(@campaign), method: :get, class: 'button large-12 column' %>  
+            <% end %>
+          <% end %>
+
+        </td>
+      </tr>
+    <% end %>
+  </table>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 column">
+    <table class="large-12 column">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Descrizione</th>
+          <th>Costo</th>
+          <th>Acquistato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @campaign.goods.each do |good| %>
+        <tr>
+          <td><%= good.name %></td>
+          <td><%= good.description %></td>
+          <td><%= number_to_currency(good.cost,:unit => "€ ", :separator => ",", :delimiter => ".") %></td>
+          <td><% if good.purchased?  %>
+		<i class="fi-check"></i>
+	      <%else%>
+	 	<i class="fi-x"></i>
+	      <%end%>
+	  </td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 column">
+    <fieldset class="panel">
+      <legend>Commenti</legend>
+        
+      <% @donations.each do |donation| %>
+       	<div class="row">
+          <div class="large-12 columns">
+            <p>
+              <%= image_tag donation.user.information.image_url.url(:medium), class:'comment' %>&nbsp;&nbsp;
+              <strong><%= donation.user.information.name %> <%= donation.user.information.surname %>:</strong>
+              <%= donation.comment %>
+            </p>
+         </div>
+       </div>
+       <hr>
+       <% end %>
+       <%= will_paginate @donations %>
+    </fieldset>
+  </div>
+</div>
+
+
+
+
+

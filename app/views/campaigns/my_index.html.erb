@@ -1,13 +1,45 @@
-<h1>Le Mie Campagne</h1>
+<div class="row">
+  <div class="large-12 column">
+    <h1>Le Mie Campagne</h1>
+  </div>
+</div>
 
-<%= will_paginate @campaigns %>
+<div class="row">
+  <div class="large-12 column">
 
-<ul>
-  <% @campaigns.each do |campaign| %>
-    <li>
-      <%= link_to campaign.title, campaign_path(campaign) %>
-    </li>
-  <% end %>
-</ul>
+    <%= will_paginate @campaigns, class:"pagination"%>
+    
+    <% @campaigns.each do |campaign| %>
+    
+    <table class="large-12 column">
+      <tr>
+        <td class="large-3 column centralista"><%= link_to image_tag(campaign.image_url.url(:medium), class:'imgcampagn'), campaign_path(campaign) %></td>
+          
+        <td class="large-9 column">
+          <h4>
+            <%= link_to campaign.title, campaign_path(campaign) %>
+          </h4>
+          <h5>
+            Budget: <%= number_to_currency(campaign.budget,:unit => "€ ", :separator => ",", :delimiter => ".") %>    	      
+  	  </h5>
+          <h5>
+	    Target: <%= number_to_currency(campaign.target,:unit => "€ ", :separator => ",", :delimiter => ".") %>
+	  </h5>
+          <h5>
+	    Scadenza: <%= campaign.expiration.strftime("%d-%m-%Y %H:%M") %>
+	  </h5>
+         
+          <% @percentuale_raggiunta= ((campaign.budget / campaign.target)*100).to_i %>
 
-<%= link_to 'Crea Campagna', new_campaign_path, class: 'btn btn-large btn-info' %>
+          <div class="progress large-12 column"> 
+            <span class="meter" style="width: <%= @percentuale_raggiunta %>%"></span>
+          </div>
+        </td>
+      </tr>
+    </table>    
+
+    <% end %>
+
+    <%= link_to 'Crea Campagna', new_campaign_path, class: 'button large-12 column' %>
+  </div>
+</div>

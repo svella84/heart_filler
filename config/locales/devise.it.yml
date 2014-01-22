@@ -1,4 +1,3 @@
-# Italian translation for Devise 2.2
 # Date: 2013-03-28
 # Author: fuzziness
 # Note: Thanks to cloud8421 (https://gist.github.com/1844915) for the 2.0 translation
@@ -47,6 +46,7 @@ it:
       update_needs_confirmation: "Il tuo account è stato aggiornato, tuttavia è necessario verificare il tuo nuovo indirizzo email. Entro qualche minuto riceverai un messaggio email con le istruzioni per confermare il tuo nuovo indirizzo email."
       updated: "Il tuo account è stato aggiornato."
     sessions:
+      remember_me: "Ricordati l accesso"
       signed_in: "Accesso effettuato con successo."
       signed_out: "Sei uscito correttamente."
     unlocks:
