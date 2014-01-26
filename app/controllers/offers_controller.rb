@@ -12,6 +12,7 @@ class OffersController < ApplicationController
   	@offer = current_user.offers.build(campaign_id: @campaign.id, comment: params[:offer][:comment])
   	
   	credit = current_user.information.credit.to_f
+    donation.gsub!(",", ".")
   	donation = donation.to_f
 
   	if(credit-donation >= 0)
@@ -20,8 +21,8 @@ class OffersController < ApplicationController
   	  	donation = @campaign.target - @campaign.budget
   	  end
 
-  	  @campaign.budget += donation
-  	  @campaign.save
+      campaign_budget = @campaign.budget + donation
+      @campaign.update_attribute("budget", campaign_budget)
 
   	  current_user.information.credit = credit - donation
   	  current_user.save

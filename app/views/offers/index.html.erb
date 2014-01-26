@@ -6,9 +6,16 @@
   <div class="large-12 columns">
     <% @offers.each do |offer| %>
       <ul class="pricing-table"> 
-        <li class="title"> <%= offer.campaign.title %> </li> 
-        <li class="price"> <%= number_to_currency offer.donation, unit: '€', :separator => ",", :delimiter => "." %></li> 
-        <li class="description"><%= offer.good.nil? ? "" : offer.good.name %> </li>  
+        <li class="title"><%= link_to offer.campaign.title, campaign_path(offer.campaign.id) %></li> 
+        <li class="price"><%= number_to_currency offer.donation, unit: '€', :separator => ",", :delimiter => "." %></li> 
+        <li class="bullet-item">
+	  <% if offer.good.nil? %>
+  	    <div class="not_purchased_good">Credito della donazione non ancora utilizzato</div>
+	  <% else%>
+	    <div class="purchased_good"><i class="fi-check">&nbsp;</i><%= offer.good.name %></div>
+  	  <% end%> 
+	</li>
+        <li class="description"><%= offer.comment %> </li>  
         <li class="bullet-item"><%= offer.created_at.nil? ? "" : offer.created_at.strftime("%d-%m-%Y %H:%M") %> </li> 
       </ul>
     <% end%>

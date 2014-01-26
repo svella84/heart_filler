@@ -44,11 +44,14 @@ class CampaignsController < ApplicationController
   def show
     @donations = @campaign.offers.paginate(page: params[:page], per_page: 10)
 
-    year = @campaign.expiration.year - Time.now.year
-    @days = (@campaign.expiration.day - Time.now.day) + 365*year
-    @hours = @campaign.expiration.hour - Time.now.hour 
-    @minutes = @campaign.expiration.min - Time.now.min
-    @seconds = @campaign.expiration.sec - Time.now.sec
+    difference = @campaign.expiration - (Time.now + 1.hour)
+    @days = (difference/86400).to_i
+    difference = difference - @days*86400
+    @hours = (difference/3600).to_i
+    difference = difference - @hours*3600
+    @minutes = (difference/60).to_i
+    difference = difference - @minutes*60
+    @seconds = (difference).to_i
   end
 
   def index

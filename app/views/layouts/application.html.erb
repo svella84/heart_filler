@@ -12,6 +12,8 @@
   </head>
 
   <body>
+    <%= javascript_include_tag "application" %>
+
     <%= render 'layouts/header' %>
 
     <div class="row">
@@ -28,8 +30,6 @@
     <%= yield %>
 
     <%= render 'layouts/footer' %>
-
-    <%= javascript_include_tag "application" %>
 
   </body>
 </html>

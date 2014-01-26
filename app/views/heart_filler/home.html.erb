@@ -18,20 +18,38 @@
     <div class="row">
       <div class="large-7 columns">  
         <div class="panel">
-          <h2>Aiutaci ad AIUTARE!!!<h2>
-          <h4>Per la tua donazione scegli tra le categorie</h4>
+          <h2 class="centra">Non basta fare del bene, bisogna anche farlo bene.<h2>
+          <hr/>
             
           <div class="row">
-            <div class="large-12 columns">
-              <p>We'd love to hear from you, you attractive person you.</p>
+            <div class="large-12 columns description">
+              <p>
+                 “Non è tanto quello che facciamo, ma quanto amore mettiamo nel farlo. 
+                 Non è tanto quello che diamo, ma quando amore mettiamo nel dare.” 
+                 <small>Madre Teresa di Calcutta</small><br/>
+                 <strong>HEART FEALLER</strong> ti aiuta ad aiutare gli altri promuovendo
+                 le tue iniziative, ma nello stesso tempo ti permette di fornire il tuo contributo
+                 verso le altre... con la possibilita di monitorare le tue donazioni e sapere
+                 come i tuoi soldi sono stati spesi e se la campagna non raggiunge tutti gli obiettivi
+                 tranquillo la tua donazione ti verra rimborsatà, perchè Non basta fare del bene,
+                 bisogna anche farlo bene. E Ricorda ciò che hai donato, è tuo per sempre. 
+              </p>
             </div>
+	    <br/>
+	    <hr/>
+            <h4 class="centra">Per la tua donazione scegli tra le categorie</h4>
+            <hr/>
+            <br/>
             <div class="large-9 columns">
-              <h4>Totale Donazioni!</h4>
-              <%= number_to_currency(@total_donations,:unit => "€ ", :separator => ",", :delimiter => ".") %>
+              <h3>
+	        Totale Donazioni!<br/>
+                <strong><%= number_to_currency(@total_donations,:unit => "€ ", :separator => ",", :delimiter => ".") %></strong>
+              </h3>
             </div>
             <div class="large-3 columns">
               <%= link_to 'Guarda Le Campagne', campaigns_path, class: 'radius button right' %>
             </div>
+            <br/>
           </div>
         </div>
       </div>

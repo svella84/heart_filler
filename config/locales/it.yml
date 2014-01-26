@@ -34,6 +34,9 @@ it:
               blank: "Una campagna senza obiettivo è come un cielo senza stelle, forza vallo a mettere!"
               not_a_number: "Un numero è un numero! Ricontrolla l'obiettivo della campagna e correggilo"
 
+      messages:
+        record_invalid: "Record non valido"
+
 
 
 # frammento di gestione delle date preso e tradotto da 
