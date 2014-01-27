@@ -2,53 +2,62 @@
   <div class="large-12 columns">
     <h1>Aggiornamento Campagna</h1>
   </div>
+</div>
 
-  <%= form_for(@campaign) do |f| %>
-    <% if @campaign.errors.any? %>
-      <ul>
-        <% @campaign.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    <% end %>
-
-    <div class="large-12 columns">
-      <%= f.text_field :title %>
-    </div>
-
-    <!--TODO-->
-    <div class="fields">
-      <%= f.file_field :image_url %>
-    </div>
-
-    <div class="large-12 columns">
-      <%= f.select :category_id, Category.all.map { |c| [c.name, c.id] } %>
-    </div>
-
-    <div class="large-12 columns">
-      <%= f.text_area :description %>
-    </div>
-
-    <div class="fields">
-      <%=  %>
-    </div>
-
-    <div class="large-12 columns">
-        <h4 class="inline_text">Budget totale prefissato:</h4>
-      <h5 class="inline_text"><%= number_to_currency @campaign.target, unit: '€', :separator => ",", :delimiter => "." %></h5>
-    </div>
-    <div class="large-12 columns"><br/></div>
-
-    <div class="large-12 columns">
-        <h4 class="inline_text">Termine della campagna:</h4>
-  <h5 class="inline_text"><%= @campaign.expiration.strftime("%d-%m-%Y %H:%M") %></h5>
-    </div>
-    <div class="large-12 columns"><br/></div>
-
-    <div class="large-12 columns">
-      <%= f.submit "Conferma la modifica", class: "button large-12" %>
-    </div>
-
+<%= form_for(@campaign) do |f| %>
+  <% if @campaign.errors.any? %>
+    <ul>
+      <% @campaign.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
   <% end %>
 
-</div><!--div row-->
+  <div class="row">
+    <div class="large-12 columns">
+
+      <div class="large-2 columns">
+        <label class="inline">Titolo: </label>
+      </div>
+      <div class="large-10 columns">
+        <%= f.text_field :title %>
+      </div>
+
+      <div class="large-2 columns">
+        <label class="inline">Categoria: </label>
+      </div>
+      <div class="large-10 columns">
+        <%= f.select :category_id, Category.all.map { |c| [c.name, c.id] } %>
+      </div>
+
+      <div class="large-2 columns">
+        <label class="inline">Descrizione: </label>
+      </div>
+      <div class="large-10 columns">
+        <%= f.text_area :description, rows:5 %>
+      </div>
+
+      <div class="large-2 columns">
+        <label class="inline">Immagine: </label>
+      </div>
+      <div class="large-10 columns">
+        <%= f.file_field :image_url %>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel">
+        <h4 class="inline_text">Budget totale prefissato: </h4>
+        <h5 class="inline_text"><strong><%= number_to_currency @campaign.target, unit: '€', :separator => ",", :delimiter => "." %></strong></h5>
+        <br/>
+        <hr/>
+        <h4 class="inline_text">Termine della campagna: </h4> 
+        <h5 class="inline_text"><strong><%= @campaign.expiration.strftime("%d-%m-%Y %H:%M") %></strong></h5>
+      </div>
+      <br/>
+      <%= f.submit "Conferma la modifica", class: "button large-12" %>
+    </div>
+  </div><!--div row-->
+<% end %>

@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Help</h1>
+    <p>Per qualsiasi aiuto, segnalazione od altro non esitare a contattarci</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <section class="section">
+      <form>
+        <div class="row">
+          <div class="large-2 columns">
+            <label>Il tuo Nome:</label>
+          </div>
+          <div class="large-10 columns">
+            <input type="text" id="yourName" placeholder="Jane Smith">
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-2 columns">
+            <label>La tua E-mail:</label>
+          </div>
+          <div class="large-10 columns">
+            <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+          </div>
+        </div>
+        <label>What's up?</label>
+        <textarea></textarea>
+        <button type="submit" class="radius button large-12 columns">Submit</button>
+      </form>
+    </section>
+  </div>
+</div>

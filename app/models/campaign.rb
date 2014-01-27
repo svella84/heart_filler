@@ -6,7 +6,7 @@ class Campaign < ActiveRecord::Base
 
   accepts_nested_attributes_for :goods, allow_destroy: true 
 
-  has_attached_file :image_url, :styles => { :medium => "300x300", :thumb => "100x100>" }, :default_url => "campaign.jpg"
+  has_attached_file :image_url, :styles => { :large => "980x980>", :medium => "300x300>", :thumb => "100x100>" }, :default_url => "campaign.jpg"
 
   validates :title, :category_id, :description, :target, :expiration, presence: true
 
