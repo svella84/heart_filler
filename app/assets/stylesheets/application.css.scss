@@ -13,15 +13,6 @@
  *= require_tree .
  */
 
- body {
- 	background-image: image-url("background.jpg");
-   	background-origin: padding-box;
-   	background-position: 50% 0;
-   	background-repeat: no-repeat;
-   	background-size: cover;
- 	padding-top: 60px;
- }
-
 .imgheader {
 	border-radius: 50%;
         width: 30px;
@@ -32,7 +23,13 @@
 	text-align:justify;
 }
 
-.centra{
+.centra {
 	text-align: center;
 	padding: 6px;
+}
+
+.log_reg {
+	border-radius: 15px;
+        opacity:0.6;
+
 }

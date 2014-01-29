@@ -3,7 +3,7 @@
     <h1>Profilo di <%= current_user.information.name.capitalize + " " + current_user.information.surname.capitalize %></h1>    
 
     <div class="large-5 column">
-      <%= image_tag current_user.information.image_url.url(:large), class:'show_img_user' %>
+      <%= image_tag current_user.information.image_url.url(:large) %>
     </div>
 
   <div class="large-7 column">

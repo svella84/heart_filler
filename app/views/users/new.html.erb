@@ -25,7 +25,9 @@
 
       <div><%= f.submit "Registrati", class: "button large-12" %></div>
 
-      <%= render "devise/shared/links_nil" %>
+      <div class="panel log_reg">
+        <%= render "devise/shared/links" %>
+      </div>
     <% end %>
 
   </div>

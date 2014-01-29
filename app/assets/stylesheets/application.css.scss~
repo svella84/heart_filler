@@ -13,47 +13,23 @@
  *= require_tree .
  */
 
- body {
- 	background-image: image-url("background.jpg");
-   	background-origin: padding-box;
-   	background-position: 50% 0;
-   	background-repeat: no-repeat;
-   	background-size: cover;
- 	padding-top: 60px;
- }
-
 .imgheader {
 	border-radius: 50%;
         width: 30px;
 	height: 30px;
 }
 
-.comment {
-	border-radius: 50%;
-        width: 50px;
-	height: 50px;
+.description {
+	text-align:justify;
 }
 
-.imgcampagn {
-	border-radius: 50%;
-        width: 120px;
-	height: 120px;
+.centra {
+	text-align: center;
+	padding: 6px;
 }
 
-.showimgcampaign {
-	border-radius: 50%;
-        width: 250px;
-	height: 250px;
-}
+.log_reg {
+	border-radius: 15px;
+        opacity:0.5;
 
-.good input, .good textarea{
-  display: inline-block!important;
-  width: 32%!important;
-  vertical-align: middle!important;
-  height: 50px!important;
-  padding: 8px!important;
-}
-
-.good textarea {
-  margin-right: 10px;
 }

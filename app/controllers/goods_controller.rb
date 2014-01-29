@@ -35,7 +35,7 @@ class GoodsController < ApplicationController
     			if total > good.cost
     			  difference = total - good.cost
     			  offer.donation -= difference
-    			  new_offer = Offer.new(campaign_id: offer.campaign_id, user_id: offer.user_id)
+    			  new_offer = Offer.new(campaign_id: offer.campaign_id, user_id: offer.user_id, comment: "")
     			  new_offer.donation = difference
     			  new_offer.save
     			  total = good.cost
