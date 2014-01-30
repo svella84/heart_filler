@@ -79,7 +79,7 @@ class CampaignsController < ApplicationController
 
   	Campaign.where(category_id: 3).each do |campaign|
   	  campaign.offers.each do |offer|
-  	    @childer = @childer + offer.donation
+  	    @children = @children + offer.donation
   	  end
   	end
 

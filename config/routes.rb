@@ -10,6 +10,7 @@ HeartFiller::Application.routes.draw do
     get "users/profile", :to => "users#show", :as => 'profile'
     get "users/add_credit", :to => "users#add_credit", :as => 'add_credit'
     post "users/update_credit", :to => "users#update_credit", :as => 'update_credit'
+    delete "users/delete_account", :to => "users#delete_account", :as => 'delete_account'
   end
 
   get 'campaigns/my_index', to: "campaigns#my_index", as: 'my_index'

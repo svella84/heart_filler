@@ -94,7 +94,7 @@
 
       <h5>Non vuoi più utilizzare il nostro servizio per la creazione di campagne di raccolta fondi? Puoi eliminare il tuo account dal sistema, cancellando di conseguenza tutti i dati ad esso correlato.<br/>Se sei deciso a farlo clicca il pulsante qua sotto.</h5>
 
-      <%= button_to "Elimina", registration_path(resource_name), class: 'button alert large-12 column', :data => { :confirm => "Attenzione, se prosegui il tuo profilo verrà eliminato per sempre. Vuoi procedere?" }, :method => :delete %>
+      <%= button_to "Elimina", delete_account_path, class: 'button alert large-12 column', :data => { :confirm => "Attenzione, se prosegui il tuo profilo verrà eliminato per sempre. Vuoi procedere?" }, :method => :delete %>
     </div>
   
   </div><!--fine panel-->
