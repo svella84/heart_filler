@@ -8,7 +8,7 @@
 it:
   devise:
     confirmations:
-      confirmed: "Il tuo account è stato correttamente confermato. Ora sei collegato."
+      confirmed: "Il tuo account è stato correttamente confermato. Ora puoi effettuare l'accesso."
       send_instructions: "Riceverai un messaggio email con le istruzioni per confermare il tuo account entro qualche minuto."
       send_paranoid_instructions: "Se la tua email esiste nel nostro database, entro qualche minuto riceverai un messaggio email con le istruzioni per confermare il tuo account."
     failure:
@@ -53,6 +53,9 @@ it:
       send_instructions: "Entro qualche minuto riceverai un messaggio email con le istruzioni per sbloccare il tuo account."
       send_paranoid_instructions: "Se la tua email esiste nel nostro database, entro qualche minuto riceverai un messaggio email con le istruzioni per sbloccare il tuo account."
       unlocked: "Il tuo account è stato correttamente sbloccato. Ora sei collegato."
+    users:
+      user:
+        signed_up_but_unconfirmed: "Una email ti è stata mandata per confermare la registrazione!"  
   errors:
     messages:
       already_confirmed: "è stato già confermato, prova ad effettuare un nuovo accesso"

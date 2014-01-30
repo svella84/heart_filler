@@ -1,7 +1,7 @@
 class Information < ActiveRecord::Base
   belongs_to :user
 
-  has_attached_file :image_url, :styles => { :large => "980x980>", :medium => "300x300>", :thumb => "100x100>", :small => "30x30>" }, :default_url => "/images/:style/missing.png"
+  has_attached_file :image_url, :styles => { :large => "980x980>", :medium => "300x300>", :thumb => "100x100>", :small => "30x30>" }, :default_url => "user.jpg"
 
   ONLY_LETTERS_REGEX = /\A[a-zA-Z]+\Z/
   ONLY_NUMBERS_REGEX = /\A[0-9]+\Z/

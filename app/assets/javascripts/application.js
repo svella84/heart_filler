@@ -29,6 +29,17 @@ function add_fields(link, association, content) {
   $(link).parent().prev(".good_list").append(content.replace(regexp, new_id));
 }
 
+$(document).foundation({
+  orbit: {
+    animation: 'slide',
+    timer_speed: 2000,
+    pause_on_hover: true,
+    animation_speed: 1500,
+    navigation_arrows: true,
+    bullets: false
+  }
+});
+
 $(function() {
 	
 	if (document.createElement('canvas').getContext) {
