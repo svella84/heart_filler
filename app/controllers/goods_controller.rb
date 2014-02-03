@@ -1,6 +1,9 @@
 class GoodsController < ApplicationController
+  before_action :authenticate_user!
+  before_action :set_campaign
+  before_action :only_if_current_user_created_this_campaign
+
   def goods_list
-  	@campaign = Campaign.find(params[:id])
   	@goods = @campaign.goods
     @available_money = @campaign.budget
     money_spent = 0
@@ -52,6 +55,12 @@ class GoodsController < ApplicationController
       flash[:error] = 'Soldi insufficienti!'
       redirect_to goods_list_path(campaign)
     end
+  end
+
+  private
+
+  def set_campaign
+      @campaign = Campaign.find(params[:id])
   end
 
 end
